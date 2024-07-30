@@ -1,2 +1,3 @@
-require("slvt.remap")
-require("slvt.set")
+require("xdd.lazy")
+require("xdd.remap")
+require("xdd.set")
