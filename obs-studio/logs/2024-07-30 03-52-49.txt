@@ -1,0 +1,303 @@
+03:52:49.303: Using EGL/X11
+03:52:49.304: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+03:52:49.304: CPU Speed: 1439.674MHz
+03:52:49.304: Physical Cores: 2, Logical Cores: 4
+03:52:49.304: Physical Memory: 7724MB Total, 7210MB Free
+03:52:49.304: Kernel Version: Linux 6.10.2-arch1-1
+03:52:49.304: Distribution: "Arch Linux" Unknown
+03:52:49.304: Session Type: tty
+03:52:49.304: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+03:52:49.329: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+03:52:49.329: Portable mode: false
+03:52:50.270: OBS 30.2.1-1 (linux)
+03:52:50.270: ---------------------------------
+03:52:50.301: ---------------------------------
+03:52:50.301: audio settings reset:
+03:52:50.301: 	samples per sec: 48000
+03:52:50.301: 	speakers:        2
+03:52:50.301: 	max buffering:   960 milliseconds
+03:52:50.301: 	buffering type:  dynamically increasing
+03:52:50.388: ---------------------------------
+03:52:50.388: Initializing OpenGL...
+03:52:51.915: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+03:52:51.915: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 24.1.4-arch1.2, shading language 4.20
+03:52:52.285: ---------------------------------
+03:52:52.285: video settings reset:
+03:52:52.285: 	base resolution:   1920x1080
+03:52:52.285: 	output resolution: 1280x720
+03:52:52.285: 	downscale filter:  Bilinear
+03:52:52.285: 	fps:               30/1
+03:52:52.285: 	format:            NV12
+03:52:52.285: 	YUV mode:          Rec. 709/Partial
+03:52:52.286: NV12 texture support enabled
+03:52:52.286: P010 texture support not available
+03:52:52.478: Audio monitoring device:
+03:52:52.478: 	name: Source Audio/Sink sink
+03:52:52.478: 	id: Source
+03:52:52.478: ---------------------------------
+03:52:52.535: Failed to load 'en-US' text for module: 'decklink-captions.so'
+03:52:52.570: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+03:52:52.595: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:52:52.595: Failed to initialize module 'decklink.so'
+03:52:53.699: [pipewire] No capture sources available
+03:52:54.952: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+03:52:54.952: FFmpeg VAAPI H264 encoding not supported
+03:52:54.952: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+03:52:54.952: FFmpeg VAAPI AV1 encoding not supported
+03:52:54.952: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+03:52:54.952: FFmpeg VAAPI HEVC encoding not supported
+03:52:55.911: ---------------------------------
+03:52:55.911:   Loaded Modules:
+03:52:55.911:     text-freetype2.so
+03:52:55.911:     rtmp-services.so
+03:52:55.912:     obs-x264.so
+03:52:55.912:     obs-webrtc.so
+03:52:55.912:     obs-vst.so
+03:52:55.912:     obs-transitions.so
+03:52:55.912:     obs-qsv11.so
+03:52:55.912:     obs-outputs.so
+03:52:55.912:     obs-libfdk.so
+03:52:55.912:     obs-filters.so
+03:52:55.912:     obs-ffmpeg.so
+03:52:55.912:     linux-v4l2.so
+03:52:55.912:     linux-pulseaudio.so
+03:52:55.912:     linux-pipewire.so
+03:52:55.912:     linux-jack.so
+03:52:55.912:     linux-capture.so
+03:52:55.912:     linux-alsa.so
+03:52:55.912:     image-source.so
+03:52:55.912:     frontend-tools.so
+03:52:55.912:     decklink-output-ui.so
+03:52:55.912:     decklink-captions.so
+03:52:55.912: ---------------------------------
+03:52:55.945: ---------------------------------
+03:52:55.945: Available Encoders:
+03:52:55.945:   Video Encoders:
+03:52:55.945: 	- ffmpeg_svt_av1 (SVT-AV1)
+03:52:55.945: 	- ffmpeg_aom_av1 (AOM AV1)
+03:52:55.946: 	- obs_x264 (x264)
+03:52:55.946:   Audio Encoders:
+03:52:55.946: 	- ffmpeg_aac (FFmpeg AAC)
+03:52:55.946: 	- ffmpeg_opus (FFmpeg Opus)
+03:52:55.946: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+03:52:55.946: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+03:52:55.946: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+03:52:55.946: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+03:52:55.946: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+03:52:55.946: 	- libfdk_aac (libfdk AAC)
+03:52:55.946: ==== Startup complete ===============================================
+03:52:56.105: All scene data cleared
+03:52:56.105: ------------------------------------------------
+03:52:56.127: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+03:52:56.128: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+03:52:56.128: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+03:52:56.128: [Loaded global audio device]: 'Desktop Audio'
+03:52:56.129: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+03:52:56.130: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+03:52:56.130: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+03:52:56.164: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+03:52:56.164: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+03:52:56.164: pulse-am: Started Monitoring in 'Source'
+03:52:56.206: [Loaded global audio device]: 'Mic/Aux'
+03:52:56.206:     - filter: 'Noise Gate' (noise_gate_filter)
+03:52:56.206:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+03:52:56.206:     - monitoring: monitor and output
+03:52:56.223: v4l2-input: Start capture from /dev/video0
+03:52:56.252: v4l2-input: Input: 0
+03:52:56.255: v4l2-input: Resolution: 1280x720
+03:52:56.255: v4l2-input: Pixelformat: MJPG
+03:52:56.255: v4l2-input: Linesize: 0 Bytes
+03:52:56.257: v4l2-input: Framerate: 30.00 fps
+03:52:56.317: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+03:52:56.744: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+03:52:56.744: 
+03:52:56.808: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+03:52:56.808: 
+03:52:57.187: Switched to scene 'webcam'
+03:52:57.187: ------------------------------------------------
+03:52:57.187: Loaded scenes:
+03:52:57.187: - scene 'webcam':
+03:52:57.187:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+03:52:57.188:     - source: 'redhead-loli' (image_source)
+03:52:57.188:     - source: 'lain-icon' (image_source)
+03:52:57.188:     - source: 'lain-rolling' (image_source)
+03:52:57.188:     - source: 'chatting' (image_source)
+03:52:57.188:     - source: 'pepo-cat' (image_source)
+03:52:57.188:     - source: 'pepo-sit' (image_source)
+03:52:57.188:     - source: 'catgirl-dancing' (image_source)
+03:52:57.188:     - source: 'idk' (image_source)
+03:52:57.188:     - source: 'pepo-tea' (image_source)
+03:52:57.188:     - source: 'Image' (image_source)
+03:52:57.188: ------------------------------------------------
+03:52:57.785: Unhandled client message:  "_NET_WM_NAME"
+03:52:57.785: Unhandled client message:  "_NET_WM_NAME"
+03:52:57.785: Unhandled client message:  "_NET_WM_NAME"
+03:52:57.785: Unhandled client message:  "_NET_WM_NAME"
+03:53:01.931: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:01.932: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:02.133:   OpenType support missing for "Open Sans", script 11
+03:53:02.139:   OpenType support missing for "Arial", script 11
+03:53:02.175:   OpenType support missing for "Open Sans", script 12
+03:53:02.180:   OpenType support missing for "Arial", script 12
+03:53:02.223:   OpenType support missing for "Open Sans", script 16
+03:53:02.231:   OpenType support missing for "Arial", script 16
+03:53:02.258:   OpenType support missing for "Open Sans", script 20
+03:53:02.268:   OpenType support missing for "Arial", script 20
+03:53:16.004: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:16.005: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:27.203: Number of remaining views: 1
+03:53:27.203: ---------------------------------
+03:53:27.203: video settings reset:
+03:53:27.203: 	base resolution:   1920x1080
+03:53:27.203: 	output resolution: 1280x720
+03:53:27.203: 	downscale filter:  Bilinear
+03:53:27.203: 	fps:               30/1
+03:53:27.203: 	format:            NV12
+03:53:27.203: 	YUV mode:          Rec. 709/Partial
+03:53:27.203: NV12 texture support enabled
+03:53:27.203: P010 texture support not available
+03:53:27.210: Settings changed (advanced)
+03:53:27.210: ------------------------------------------------
+03:53:29.928: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:29.929: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:34.810: Number of remaining views: 1
+03:53:34.810: ---------------------------------
+03:53:34.810: video settings reset:
+03:53:34.810: 	base resolution:   1920x1080
+03:53:34.810: 	output resolution: 1280x720
+03:53:34.810: 	downscale filter:  Bilinear
+03:53:34.810: 	fps:               30/1
+03:53:34.810: 	format:            NV12
+03:53:34.810: 	YUV mode:          Rec. 709/Partial
+03:53:34.810: NV12 texture support enabled
+03:53:34.810: P010 texture support not available
+03:53:34.822: Settings changed (advanced)
+03:53:34.823: ------------------------------------------------
+03:53:47.548: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:53:47.549: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:06.552: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:06.553: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:12.736: pulse-am: Stopped Monitoring in 'Source'
+03:54:12.736: pulse-am: Got 3038 packets with 3645600 frames
+03:54:12.765: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+03:54:12.765: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+03:54:12.765: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo'
+03:54:12.765: Audio monitoring device:
+03:54:12.765: 	name: Default
+03:54:12.765: 	id: default
+03:54:12.788: Number of remaining views: 1
+03:54:12.788: ---------------------------------
+03:54:12.788: video settings reset:
+03:54:12.788: 	base resolution:   1920x1080
+03:54:12.788: 	output resolution: 1280x720
+03:54:12.788: 	downscale filter:  Bilinear
+03:54:12.788: 	fps:               30/1
+03:54:12.788: 	format:            NV12
+03:54:12.788: 	YUV mode:          Rec. 709/Partial
+03:54:12.789: NV12 texture support enabled
+03:54:12.789: P010 texture support not available
+03:54:12.798: Settings changed (advanced)
+03:54:12.798: ------------------------------------------------
+03:54:15.797: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:15.797: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:48.181: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:48.181: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:54:53.796: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo'
+03:54:53.796: pulse-am: Got 1641 packets with 1969200 frames
+03:54:53.826: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+03:54:53.826: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+03:54:53.827: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo'
+03:54:53.827: Audio monitoring device:
+03:54:53.827: 	name: Built-in Audio Analog Stereo
+03:54:53.827: 	id: alsa_output.pci-0000_00_1b.0.analog-stereo
+03:54:53.831: Number of remaining views: 1
+03:54:53.831: ---------------------------------
+03:54:53.831: video settings reset:
+03:54:53.831: 	base resolution:   1920x1080
+03:54:53.831: 	output resolution: 1280x720
+03:54:53.831: 	downscale filter:  Bilinear
+03:54:53.831: 	fps:               30/1
+03:54:53.831: 	format:            NV12
+03:54:53.831: 	YUV mode:          Rec. 709/Partial
+03:54:53.831: NV12 texture support enabled
+03:54:53.831: P010 texture support not available
+03:54:53.842: Settings changed (general, advanced)
+03:54:53.842: ------------------------------------------------
+03:55:07.852: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo'
+03:55:07.852: pulse-am: Got 561 packets with 673200 frames
+03:55:07.852: User changed audio monitoring for source 'Mic/Aux' to: none
+03:55:53.431: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:55:53.432: Get on org.freedesktop.portal.Settings returned an invalid reply
+03:57:47.894: Settings changed (general, audio)
+03:57:47.894: ------------------------------------------------
+04:02:49.438: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:02:49.438: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:02:55.806: Audio monitoring device:
+04:02:55.806: 	name: Source Audio/Sink sink
+04:02:55.806: 	id: Source
+04:02:55.809: Number of remaining views: 1
+04:02:55.809: ---------------------------------
+04:02:55.809: video settings reset:
+04:02:55.809: 	base resolution:   1920x1080
+04:02:55.809: 	output resolution: 1280x720
+04:02:55.809: 	downscale filter:  Bilinear
+04:02:55.809: 	fps:               30/1
+04:02:55.809: 	format:            NV12
+04:02:55.809: 	YUV mode:          Rec. 709/Partial
+04:02:55.809: NV12 texture support enabled
+04:02:55.809: P010 texture support not available
+04:02:55.819: Settings changed (advanced)
+04:02:55.819: ------------------------------------------------
+04:08:26.030: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:08:26.030: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:08:34.752: Number of remaining views: 1
+04:08:34.752: ---------------------------------
+04:08:34.752: video settings reset:
+04:08:34.752: 	base resolution:   1920x1080
+04:08:34.752: 	output resolution: 1280x720
+04:08:34.752: 	downscale filter:  Bilinear
+04:08:34.752: 	fps:               30/1
+04:08:34.752: 	format:            NV12
+04:08:34.752: 	YUV mode:          Rec. 709/Partial
+04:08:34.752: NV12 texture support enabled
+04:08:34.752: P010 texture support not available
+04:08:34.767: Settings changed (advanced)
+04:08:34.767: ------------------------------------------------
+04:08:38.391: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:08:38.392: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:08:49.933: Number of remaining views: 1
+04:08:49.933: ---------------------------------
+04:08:49.933: video settings reset:
+04:08:49.933: 	base resolution:   1920x1080
+04:08:49.933: 	output resolution: 1280x720
+04:08:49.933: 	downscale filter:  Bilinear
+04:08:49.933: 	fps:               30/1
+04:08:49.933: 	format:            NV12
+04:08:49.933: 	YUV mode:          Rec. 709/Partial
+04:08:49.934: NV12 texture support enabled
+04:08:49.934: P010 texture support not available
+04:08:49.948: Settings changed (advanced)
+04:08:49.948: ------------------------------------------------
+04:08:53.306: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:08:53.307: Get on org.freedesktop.portal.Settings returned an invalid reply
+04:09:06.968: Audio monitoring device:
+04:09:06.968: 	name: Default
+04:09:06.968: 	id: default
+04:09:06.981: Number of remaining views: 1
+04:09:06.981: ---------------------------------
+04:09:06.981: video settings reset:
+04:09:06.981: 	base resolution:   1920x1080
+04:09:06.981: 	output resolution: 1280x720
+04:09:06.981: 	downscale filter:  Bilinear
+04:09:06.981: 	fps:               30/1
+04:09:06.981: 	format:            NV12
+04:09:06.981: 	YUV mode:          Rec. 709/Partial
+04:09:06.981: NV12 texture support enabled
+04:09:06.981: P010 texture support not available
+04:09:06.993: Settings changed (general, advanced)
+04:09:06.993: ------------------------------------------------
+04:09:15.795: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+04:09:15.795: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+04:09:15.795: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1b.0.analog-stereo'
+04:09:15.795: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+04:09:18.640: xcb_shm_create_segment() failed for size 1384108

@@ -1,0 +1,121 @@
+05:34:25.487: Using EGL/X11
+05:34:25.487: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+05:34:25.487: CPU Speed: 2400.000MHz
+05:34:25.488: Physical Cores: 2, Logical Cores: 4
+05:34:25.488: Physical Memory: 7724MB Total, 5175MB Free
+05:34:25.488: Kernel Version: Linux 6.10.2-arch1-1
+05:34:25.488: Distribution: "Arch Linux" Unknown
+05:34:25.488: Session Type: tty
+05:34:25.488: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+05:34:25.518: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+05:34:25.518: Portable mode: false
+05:34:26.417: OBS 30.2.1-1 (linux)
+05:34:26.417: ---------------------------------
+05:34:26.421: ---------------------------------
+05:34:26.421: audio settings reset:
+05:34:26.421: 	samples per sec: 48000
+05:34:26.421: 	speakers:        2
+05:34:26.421: 	max buffering:   960 milliseconds
+05:34:26.421: 	buffering type:  dynamically increasing
+05:34:26.463: ---------------------------------
+05:34:26.463: Initializing OpenGL...
+05:34:26.576: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+05:34:26.576: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 24.1.4-arch1.2, shading language 4.20
+05:34:26.851: ---------------------------------
+05:34:26.851: video settings reset:
+05:34:26.851: 	base resolution:   1920x1080
+05:34:26.851: 	output resolution: 1280x720
+05:34:26.851: 	downscale filter:  Bilinear
+05:34:26.851: 	fps:               30/1
+05:34:26.851: 	format:            NV12
+05:34:26.851: 	YUV mode:          Rec. 709/Partial
+05:34:26.852: NV12 texture support enabled
+05:34:26.852: P010 texture support not available
+05:34:26.895: Audio monitoring device:
+05:34:26.895: 	name: Built-in Audio Analog Stereo
+05:34:26.895: 	id: alsa_output.pci-0000_00_1b.0.analog-stereo
+05:34:26.895: ---------------------------------
+05:34:26.930: Failed to load 'en-US' text for module: 'decklink-captions.so'
+05:34:26.983: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+05:34:27.007: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+05:34:27.007: Failed to initialize module 'decklink.so'
+05:34:28.062: [pipewire] No capture sources available
+05:34:29.435: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+05:34:29.435: FFmpeg VAAPI H264 encoding not supported
+05:34:29.436: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+05:34:29.436: FFmpeg VAAPI AV1 encoding not supported
+05:34:29.436: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+05:34:29.436: FFmpeg VAAPI HEVC encoding not supported
+05:34:30.177: ---------------------------------
+05:34:30.177:   Loaded Modules:
+05:34:30.177:     text-freetype2.so
+05:34:30.177:     rtmp-services.so
+05:34:30.177:     obs-x264.so
+05:34:30.178:     obs-webrtc.so
+05:34:30.178:     obs-vst.so
+05:34:30.178:     obs-transitions.so
+05:34:30.178:     obs-qsv11.so
+05:34:30.178:     obs-outputs.so
+05:34:30.178:     obs-libfdk.so
+05:34:30.178:     obs-filters.so
+05:34:30.178:     obs-ffmpeg.so
+05:34:30.178:     linux-v4l2.so
+05:34:30.178:     linux-pulseaudio.so
+05:34:30.178:     linux-pipewire.so
+05:34:30.178:     linux-jack.so
+05:34:30.178:     linux-capture.so
+05:34:30.178:     linux-alsa.so
+05:34:30.178:     image-source.so
+05:34:30.178:     frontend-tools.so
+05:34:30.178:     decklink-output-ui.so
+05:34:30.178:     decklink-captions.so
+05:34:30.178: ---------------------------------
+05:34:30.202: ---------------------------------
+05:34:30.202: Available Encoders:
+05:34:30.202:   Video Encoders:
+05:34:30.202: 	- ffmpeg_svt_av1 (SVT-AV1)
+05:34:30.203: 	- ffmpeg_aom_av1 (AOM AV1)
+05:34:30.203: 	- obs_x264 (x264)
+05:34:30.203:   Audio Encoders:
+05:34:30.203: 	- ffmpeg_aac (FFmpeg AAC)
+05:34:30.203: 	- ffmpeg_opus (FFmpeg Opus)
+05:34:30.203: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+05:34:30.203: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+05:34:30.203: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+05:34:30.203: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+05:34:30.203: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+05:34:30.203: 	- libfdk_aac (libfdk AAC)
+05:34:30.203: ==== Startup complete ===============================================
+05:34:30.369: All scene data cleared
+05:34:30.369: ------------------------------------------------
+05:34:30.384: pulse-input: Unable to get server info !
+05:34:30.384: [Loaded global audio device]: 'Desktop Audio'
+05:34:30.385: pulse-input: Unable to get server info !
+05:34:30.385: [Loaded global audio device]: 'Mic/Aux'
+05:34:30.385: pulse-input: Unable to get server info !
+05:34:30.385: [Loaded global audio device]: 'Mic/Aux 2'
+05:34:30.385: pulse-input: Unable to get server info !
+05:34:30.385: [Loaded global audio device]: 'Mic/Aux 3'
+05:34:30.401: v4l2-input: Start capture from /dev/video0
+05:34:30.401: v4l2-input: Unable to open device
+05:34:30.401: v4l2-input: Initialization failed, errno: No such file or directory
+05:34:31.416: Switched to scene 'webcam'
+05:34:31.416: ------------------------------------------------
+05:34:31.416: Loaded scenes:
+05:34:31.416: - scene 'webcam':
+05:34:31.416:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+05:34:31.416:     - source: 'redhead-loli' (image_source)
+05:34:31.416:     - source: 'lain-icon' (image_source)
+05:34:31.416:     - source: 'lain-rolling' (image_source)
+05:34:31.417:     - source: 'chatting' (image_source)
+05:34:31.417:     - source: 'pepo-cat' (image_source)
+05:34:31.417:     - source: 'pepo-sit' (image_source)
+05:34:31.417:     - source: 'catgirl-dancing' (image_source)
+05:34:31.417:     - source: 'idk' (image_source)
+05:34:31.417:     - source: 'pepo-tea' (image_source)
+05:34:31.417:     - source: 'Image' (image_source)
+05:34:31.417: ------------------------------------------------
+05:34:31.826: Unhandled client message:  "_NET_WM_NAME"
+05:34:31.826: Unhandled client message:  "_NET_WM_NAME"
+05:34:31.826: Unhandled client message:  "_NET_WM_NAME"
+05:34:31.827: Unhandled client message:  "_NET_WM_NAME"
