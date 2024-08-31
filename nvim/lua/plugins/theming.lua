@@ -1,5 +1,5 @@
-function applyTheme(color)
-    color = color or "aura-dark"
+    function ApplyTheme(color)
+        color = color or "oxocarbon"
     vim.cmd.colorscheme(color)
 
     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -8,19 +8,29 @@ function applyTheme(color)
 end
 
 return {
-    { 
-        "baliestri/aura-theme",
-        name = "aura-theme",
+    {
+        "nyoom-engineering/oxocarbon.nvim",
+        name = "oxocarbon",
         lazy = false,
         priority = 1000,
-        config = function(plugin)
-            vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
-            applyTheme()
+
+        config = function ()
+            ApplyTheme("oxocarbon")
+
         end
     },
 --    {
---        "nyoom-engineering/oxocarbon.nvim",
---        name = "oxocarbon",
+--        'catppuccin/nvim',
+--        name = "catppuccin",
+--        lazy = false,
+--        priority = 1000,
+--
+--    },
+--    {
+--        'olivercederborg/poimandres.nvim',
+--        name = "poimandres",
+--        lazy = false,
+--        priority = 1000,
 --    },
 --    {
 --        "folke/tokyonight.nvim",
@@ -28,5 +38,5 @@ return {
 --        lazy = false,
 --        priority = 1000,
 --        opts = {},
---    }
+--    },
 }

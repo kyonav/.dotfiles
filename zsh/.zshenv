@@ -10,3 +10,4 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/.password-store"
 
 export PATH="$HOME/.local/bin":$PATH
+export PATH="/usr/bin/flutter/bin":$PATH
