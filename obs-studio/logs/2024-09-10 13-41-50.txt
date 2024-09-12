@@ -1,0 +1,157 @@
+13:41:50.578: Using EGL/X11
+13:41:50.578: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+13:41:50.578: CPU Speed: 1200.000MHz
+13:41:50.579: Physical Cores: 2, Logical Cores: 4
+13:41:50.579: Physical Memory: 7724MB Total, 6752MB Free
+13:41:50.579: Kernel Version: Linux 6.10.6-arch1-1
+13:41:50.579: Distribution: "Arch Linux" Unknown
+13:41:50.579: Session Type: tty
+13:41:50.579: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+13:41:50.580: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+13:41:50.581: Portable mode: false
+13:41:50.650: OBS 30.2.2-37-gff2fa24dc (linux)
+13:41:50.650: ---------------------------------
+13:41:50.651: ---------------------------------
+13:41:50.651: audio settings reset:
+13:41:50.651: 	samples per sec: 48000
+13:41:50.651: 	speakers:        2
+13:41:50.651: 	max buffering:   960 milliseconds
+13:41:50.651: 	buffering type:  dynamically increasing
+13:41:50.665: ---------------------------------
+13:41:50.665: Initializing OpenGL...
+13:41:50.815: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+13:41:50.815: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 24.2.1-arch1.1, shading language 4.20
+13:41:50.875: ---------------------------------
+13:41:50.875: video settings reset:
+13:41:50.875: 	base resolution:   1920x1080
+13:41:50.875: 	output resolution: 1440x900
+13:41:50.875: 	downscale filter:  Bilinear
+13:41:50.875: 	fps:               24000/1001
+13:41:50.875: 	format:            NV12
+13:41:50.875: 	YUV mode:          Rec. 709/Partial
+13:41:50.876: NV12 texture support enabled
+13:41:50.876: P010 texture support not available
+13:41:50.887: Audio monitoring device:
+13:41:50.887: 	name: Source Audio/Sink sink
+13:41:50.887: 	id: Source
+13:41:50.887: ---------------------------------
+13:41:50.898: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:41:50.913: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:41:50.926: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:41:50.926: Failed to initialize module 'decklink.so'
+13:41:51.146: [input-overlay] Loading v5.0.5-makepkg (e90e7e9) build time 2024.08.04 14:07
+13:41:51.149: [input-overlay] Initializing SDL2 for gamepad input (compile-time: 2.30.6, run-time:  2.30.6)
+13:41:51.393: [pipewire] No capture sources available
+13:41:51.450: [obs-browser]: Version 2.24.0
+13:41:51.450: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+13:41:51.629: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:41:51.629: FFmpeg VAAPI H264 encoding not supported
+13:41:51.629: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:41:51.629: FFmpeg VAAPI AV1 encoding not supported
+13:41:51.629: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:41:51.629: FFmpeg VAAPI HEVC encoding not supported
+13:41:51.775: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+13:41:51.775: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.7.2 | Qt version (run-time): 6.7.2
+13:41:51.775: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+13:41:51.784: [obs-websocket] [obs_module_load] Module loaded.
+13:41:51.845: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+13:41:51.845: ---------------------------------
+13:41:51.845:   Loaded Modules:
+13:41:51.845:     vlc-video.so
+13:41:51.845:     text-freetype2.so
+13:41:51.845:     rtmp-services.so
+13:41:51.845:     obs-x264.so
+13:41:51.845:     obs-websocket.so
+13:41:51.845:     obs-webrtc.so
+13:41:51.845:     obs-vst.so
+13:41:51.845:     obs-transitions.so
+13:41:51.845:     obs-qsv11.so
+13:41:51.845:     obs-outputs.so
+13:41:51.845:     obs-libfdk.so
+13:41:51.845:     obs-filters.so
+13:41:51.845:     obs-ffmpeg.so
+13:41:51.845:     obs-browser.so
+13:41:51.845:     linux-v4l2.so
+13:41:51.845:     linux-pulseaudio.so
+13:41:51.845:     linux-pipewire.so
+13:41:51.845:     linux-jack.so
+13:41:51.845:     linux-capture.so
+13:41:51.845:     linux-alsa.so
+13:41:51.845:     input-overlay.so
+13:41:51.845:     image-source.so
+13:41:51.845:     frontend-tools.so
+13:41:51.845:     decklink-output-ui.so
+13:41:51.845:     decklink-captions.so
+13:41:51.845: ---------------------------------
+13:41:51.846: ---------------------------------
+13:41:51.846: Available Encoders:
+13:41:51.846:   Video Encoders:
+13:41:51.846: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:41:51.846: 	- ffmpeg_aom_av1 (AOM AV1)
+13:41:51.846: 	- obs_x264 (x264)
+13:41:51.846:   Audio Encoders:
+13:41:51.846: 	- ffmpeg_aac (FFmpeg AAC)
+13:41:51.846: 	- ffmpeg_opus (FFmpeg Opus)
+13:41:51.846: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:41:51.846: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:41:51.846: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:41:51.846: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:41:51.846: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:41:51.846: 	- libfdk_aac (libfdk AAC)
+13:41:51.846: ==== Startup complete ===============================================
+13:41:51.891: QObject::connect: No such slot io_settings_dialog::RefreshUi()
+13:41:51.891: QObject::connect:  (receiver name: 'io_config_dialog')
+13:41:51.935: All scene data cleared
+13:41:51.935: ------------------------------------------------
+13:41:51.943: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+13:41:51.944: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+13:41:51.944: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+13:41:51.944: [Loaded global audio device]: 'Desktop Audio'
+13:41:51.945: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+13:41:51.945: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+13:41:51.945: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+13:41:51.968: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+13:41:51.968: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+13:41:51.969: pulse-am: Started Monitoring in 'Source'
+13:41:51.969: [Loaded global audio device]: 'Mic/Aux'
+13:41:51.969:     - monitoring: monitor and output
+13:41:51.969: v4l2-input: Start capture from /dev/video0
+13:41:51.969: v4l2-input: Unable to open device
+13:41:51.969: v4l2-input: Initialization failed, errno: No such file or directory
+13:41:51.985: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+13:41:51.985: 	title: unknown
+13:41:51.985: 	class: unknown
+13:41:51.985: 
+13:41:52.078: Switched to scene 'w/e'
+13:41:52.078: ------------------------------------------------
+13:41:52.078: Loaded scenes:
+13:41:52.078: - scene 'w/e':
+13:41:52.078:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+13:41:52.078:     - source: 'lain-icon' (image_source)
+13:41:52.078:     - source: 'pepe-tux' (image_source)
+13:41:52.078:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+13:41:52.078:     - source: 'pepo-band' (image_source)
+13:41:52.078:     - source: 'chatting' (image_source)
+13:41:52.078:     - source: 'pepo-cat' (image_source)
+13:41:52.078:     - source: 'pepo-tea' (image_source)
+13:41:52.078:     - source: 'pepo-smoke' (image_source)
+13:41:52.078:     - source: 'pepo-weirdge' (image_source)
+13:41:52.078:     - source: 'alertbox' (browser_source)
+13:41:52.078:     - source: 'Text (FreeType 2)' (text_ft2_source_v2)
+13:41:52.078: - scene 'oeulmtmoeut':
+13:41:52.078:     - source: 'Text (FreeType 2) 2' (text_ft2_source_v2)
+13:41:52.078: ------------------------------------------------
+13:41:52.387: Unhandled client message:  "_NET_WM_NAME"
+13:41:52.387: Unhandled client message:  "_NET_WM_NAME"
+13:41:52.387: Unhandled client message:  "_NET_WM_NAME"
+13:41:52.387: Unhandled client message:  "_NET_WM_NAME"
+13:41:52.529: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+13:41:52.529: 
+13:41:55.528: Get on org.freedesktop.portal.Settings returned an invalid reply
+13:41:55.529: Get on org.freedesktop.portal.Settings returned an invalid reply
+13:41:55.655:   OpenType support missing for "Open Sans", script 11
+13:41:55.662:   OpenType support missing for "Open Sans", script 12
+13:41:55.668:   OpenType support missing for "Open Sans", script 16
+13:41:55.676:   OpenType support missing for "Open Sans", script 20
+13:41:59.176: [obs-browser: 'alertbox'] Error: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com'). (https://www.youtube.com/s/player/5f8f5b0f/www-widgetapi.vflset/www-widgetapi.js:212)
+13:42:43.161: The X11 connection broke: I/O error (code 1)
