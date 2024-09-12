@@ -1,5 +1,4 @@
 /dconf/
-/wal/
 /zsh/oh-my-zsh\
 /spotify/
 /gh/
@@ -19,14 +18,15 @@
 /wal/
 /evolution/
 /mimeapps.list
-/tool-state
+/tool_state
 /xfce4/
 /cef_user_data/
 /monitors.xml
 /spicetify/
 /spotify/
-/user_dirs.dirs
-/user_dirs.locale
+/user-dirs.dirs
+/user-dirs.locale
 /gh/
 /libreoffice/
 /mpv/
+/pavucontrol.ini
