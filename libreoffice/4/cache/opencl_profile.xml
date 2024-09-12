@@ -5,12 +5,12 @@
   <type>opencl</type>
   <name>GeForce GT 620M</name>
   <driver>390.157</driver>
-  <time>204361</time>
+  <time>205210</time>
   <errors>false</errors>
  </device>
  <device>
   <type>native</type>
-  <time>4030464</time>
+  <time>3569664</time>
   <errors>false</errors>
  </device>
 </profile>

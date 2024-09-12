@@ -1,7 +1,7 @@
 #! /bin/sh
 
 dte(){ # adding date overlay
-    dte="$(date +"%A, %B %d, %H:%M")"
+    dte="$(date +"%a, %b %d | %H:%M")"
     echo -e "$dte"
 
 }
@@ -24,8 +24,7 @@ cpu(){ # adding cpu overlay
 }
 
 while true; do # outputing and updating the overlays
-    xsetroot -name " $(cpu) | $(mem) | $(dte) |      "
+    xsetroot -name " $(cpu) | $(mem) | $(dte) |          "
     sleep 2s # update every ten seconds
 
 done &
-

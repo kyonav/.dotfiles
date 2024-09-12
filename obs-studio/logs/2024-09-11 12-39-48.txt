@@ -1,0 +1,161 @@
+12:39:48.878: [Safe Mode] Unclean shutdown detected!
+12:39:51.279: [Safe Mode] User elected to launch normally.
+12:39:51.280: Using EGL/X11
+12:39:51.280: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+12:39:51.280: CPU Speed: 1197.313MHz
+12:39:51.281: Physical Cores: 2, Logical Cores: 4
+12:39:51.281: Physical Memory: 7724MB Total, 5112MB Free
+12:39:51.281: Kernel Version: Linux 6.10.6-arch1-1
+12:39:51.281: Distribution: "Arch Linux" Unknown
+12:39:51.281: Session Type: tty
+12:39:51.281: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:39:51.283: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+12:39:51.283: Portable mode: false
+12:39:51.359: OBS 30.2.2-37-gff2fa24dc (linux)
+12:39:51.359: ---------------------------------
+12:39:51.360: ---------------------------------
+12:39:51.360: audio settings reset:
+12:39:51.360: 	samples per sec: 48000
+12:39:51.360: 	speakers:        2
+12:39:51.360: 	max buffering:   960 milliseconds
+12:39:51.360: 	buffering type:  dynamically increasing
+12:39:51.376: ---------------------------------
+12:39:51.376: Initializing OpenGL...
+12:39:51.562: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+12:39:51.563: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 24.2.1-arch1.1, shading language 4.20
+12:39:51.621: ---------------------------------
+12:39:51.621: video settings reset:
+12:39:51.621: 	base resolution:   1920x1080
+12:39:51.621: 	output resolution: 1440x900
+12:39:51.621: 	downscale filter:  Bilinear
+12:39:51.621: 	fps:               24000/1001
+12:39:51.621: 	format:            NV12
+12:39:51.621: 	YUV mode:          Rec. 709/Partial
+12:39:51.621: NV12 texture support enabled
+12:39:51.621: P010 texture support not available
+12:39:51.632: Audio monitoring device:
+12:39:51.632: 	name: Source Audio/Sink sink
+12:39:51.632: 	id: Source
+12:39:51.632: ---------------------------------
+12:39:51.643: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:39:51.656: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:39:51.668: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:39:51.668: Failed to initialize module 'decklink.so'
+12:39:51.886: [input-overlay] Loading v5.0.5-makepkg (e90e7e9) build time 2024.08.04 14:07
+12:39:51.889: [input-overlay] Initializing SDL2 for gamepad input (compile-time: 2.30.6, run-time:  2.30.6)
+12:39:52.144: [pipewire] No capture sources available
+12:39:52.199: [obs-browser]: Version 2.24.0
+12:39:52.199: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+12:39:52.362: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:39:52.362: FFmpeg VAAPI H264 encoding not supported
+12:39:52.362: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:39:52.363: FFmpeg VAAPI AV1 encoding not supported
+12:39:52.363: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:39:52.363: FFmpeg VAAPI HEVC encoding not supported
+12:39:52.533: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+12:39:52.533: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.7.2 | Qt version (run-time): 6.7.2
+12:39:52.533: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+12:39:52.542: [obs-websocket] [obs_module_load] Module loaded.
+12:39:52.611: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+12:39:52.611: ---------------------------------
+12:39:52.611:   Loaded Modules:
+12:39:52.611:     vlc-video.so
+12:39:52.611:     text-freetype2.so
+12:39:52.611:     rtmp-services.so
+12:39:52.611:     obs-x264.so
+12:39:52.611:     obs-websocket.so
+12:39:52.611:     obs-webrtc.so
+12:39:52.611:     obs-vst.so
+12:39:52.611:     obs-transitions.so
+12:39:52.611:     obs-qsv11.so
+12:39:52.611:     obs-outputs.so
+12:39:52.611:     obs-libfdk.so
+12:39:52.611:     obs-filters.so
+12:39:52.611:     obs-ffmpeg.so
+12:39:52.611:     obs-browser.so
+12:39:52.611:     linux-v4l2.so
+12:39:52.611:     linux-pulseaudio.so
+12:39:52.611:     linux-pipewire.so
+12:39:52.611:     linux-jack.so
+12:39:52.611:     linux-capture.so
+12:39:52.611:     linux-alsa.so
+12:39:52.611:     input-overlay.so
+12:39:52.611:     image-source.so
+12:39:52.611:     frontend-tools.so
+12:39:52.611:     decklink-output-ui.so
+12:39:52.611:     decklink-captions.so
+12:39:52.611: ---------------------------------
+12:39:52.611: ---------------------------------
+12:39:52.611: Available Encoders:
+12:39:52.611:   Video Encoders:
+12:39:52.611: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:39:52.611: 	- ffmpeg_aom_av1 (AOM AV1)
+12:39:52.611: 	- obs_x264 (x264)
+12:39:52.611:   Audio Encoders:
+12:39:52.611: 	- ffmpeg_aac (FFmpeg AAC)
+12:39:52.611: 	- ffmpeg_opus (FFmpeg Opus)
+12:39:52.611: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:39:52.611: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:39:52.612: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:39:52.612: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:39:52.612: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:39:52.612: 	- libfdk_aac (libfdk AAC)
+12:39:52.612: ==== Startup complete ===============================================
+12:39:52.655: QObject::connect: No such slot io_settings_dialog::RefreshUi()
+12:39:52.655: QObject::connect:  (receiver name: 'io_config_dialog')
+12:39:52.686: All scene data cleared
+12:39:52.686: ------------------------------------------------
+12:39:52.706: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+12:39:52.707: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:39:52.707: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+12:39:52.707: [Loaded global audio device]: 'Desktop Audio'
+12:39:52.708: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+12:39:52.708: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:39:52.709: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+12:39:52.811: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+12:39:52.812: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+12:39:52.812: pulse-am: Started Monitoring in 'Source'
+12:39:52.813: [Loaded global audio device]: 'Mic/Aux'
+12:39:52.813:     - filter: 'Noise Gate' (noise_gate_filter)
+12:39:52.813:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+12:39:52.813:     - monitoring: monitor and output
+12:39:52.814: v4l2-input: Start capture from /dev/video0
+12:39:52.882: v4l2-input: Input: 0
+12:39:52.887: v4l2-input: Resolution: 1280x720
+12:39:52.887: v4l2-input: Pixelformat: MJPG
+12:39:52.887: v4l2-input: Linesize: 0 Bytes
+12:39:52.889: v4l2-input: Framerate: 30.00 fps
+12:39:52.890: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+12:39:52.905: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:39:52.905: 	title: unknown
+12:39:52.905: 	class: unknown
+12:39:52.905: 
+12:39:52.993: Switched to scene 'w/e'
+12:39:52.994: ------------------------------------------------
+12:39:52.994: Loaded scenes:
+12:39:52.994: - scene 'w/e':
+12:39:52.994:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+12:39:52.994:     - source: 'lain-icon' (image_source)
+12:39:52.994:     - source: 'pepe-tux' (image_source)
+12:39:52.994:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+12:39:52.994:     - source: 'pepo-band' (image_source)
+12:39:52.994:     - source: 'chatting' (image_source)
+12:39:52.994:     - source: 'pepo-cat' (image_source)
+12:39:52.994:     - source: 'pepo-tea' (image_source)
+12:39:52.994:     - source: 'pepo-smoke' (image_source)
+12:39:52.994:     - source: 'pepo-weirdge' (image_source)
+12:39:52.994:     - source: 'alertbox' (browser_source)
+12:39:52.994:     - source: 'Text (FreeType 2)' (text_ft2_source_v2)
+12:39:52.994: - scene 'oeulmtmoeut':
+12:39:52.994: ------------------------------------------------
+12:39:53.058: v4l2-input: /dev/video0: select timed out
+12:39:53.058: v4l2-input: /dev/video0: failed to log status
+12:39:53.347: Unhandled client message:  "_NET_WM_NAME"
+12:39:53.347: Unhandled client message:  "_NET_WM_NAME"
+12:39:53.347: Unhandled client message:  "_NET_WM_NAME"
+12:39:53.347: Unhandled client message:  "_NET_WM_NAME"
+12:39:53.387: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:39:53.387: 
+12:39:53.515: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+12:39:53.515: 
+12:40:59.652: The X11 connection broke (error 1). Did the X11 server die?
