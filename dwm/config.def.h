@@ -15,7 +15,7 @@ static const char *fonts[]          = { "UbuntuMonoNerdFont-Regular:size=12" };
 static const char dmenufont[]       = "UbuntuMonoNerdFont-Regular:size=12";
 
 static const char *const autostart[] = { // cool-autostart patch 
-	"sh", "-c", "$HOME/.config/dwm/scripts/autostart.sh", NULL, /* runs autostart.sh on boot */
+	"sh", "-c", "$XDG_CONFIG_HOME/dwm/scripts/autostart.sh", NULL, /* runs autostart.sh on boot */
 	NULL /* terminate */
 };
 
