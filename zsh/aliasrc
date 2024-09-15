@@ -7,3 +7,5 @@ alias discord="optirun discord"
 alias firefox="optirun firefox"
 
 alias spotify-launcher="optirun spotify-launcher"
+
+alias v="nvim"
