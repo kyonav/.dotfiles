@@ -70,7 +70,7 @@ ZSH_THEME="michelebologna"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,4 +114,5 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export PATH=$PATH:/home/slvt/.spicetify
+source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZDOTDIR/aliasrc 
