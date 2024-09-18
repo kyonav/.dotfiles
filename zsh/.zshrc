@@ -115,4 +115,4 @@ esac
 # pnpm end
 
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZDOTDIR/aliasrc 
+source $ZDOTDIR/.aliasrc 
