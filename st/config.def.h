@@ -98,7 +98,7 @@ float alpha = 0.70;
 
 /* Terminal colors */
 
-#include "/home/slvt/.cache/wal/colors-wal-st.h" // custom colors
+#include "/home/kyo/.cache/wal/colors-wal-st.h" // custom colors
 
 /*
  * Default shape of cursor
