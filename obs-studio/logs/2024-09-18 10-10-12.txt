@@ -1,0 +1,178 @@
+10:10:12.396: Using EGL/X11
+10:10:12.396: CPU Name: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+10:10:12.396: CPU Speed: 2395.008MHz
+10:10:12.396: Physical Cores: 2, Logical Cores: 4
+10:10:12.396: Physical Memory: 7724MB Total, 3608MB Free
+10:10:12.396: Kernel Version: Linux 6.10.10-arch1-1
+10:10:12.396: Distribution: "Arch Linux" Unknown
+10:10:12.396: Session Type: tty
+10:10:12.397: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:10:12.398: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+10:10:12.398: Portable mode: false
+10:10:12.463: OBS 30.2.2-242-ga28958157 (linux)
+10:10:12.463: ---------------------------------
+10:10:12.464: ---------------------------------
+10:10:12.464: audio settings reset:
+10:10:12.464: 	samples per sec: 48000
+10:10:12.464: 	speakers:        2
+10:10:12.464: 	max buffering:   960 milliseconds
+10:10:12.464: 	buffering type:  dynamically increasing
+10:10:12.466: ---------------------------------
+10:10:12.466: Initializing OpenGL...
+10:10:12.622: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+10:10:12.622: OpenGL loaded successfully, version 4.2 (Core Profile) Mesa 24.2.2-arch1.1, shading language 4.20
+10:10:12.909: ---------------------------------
+10:10:12.909: video settings reset:
+10:10:12.909: 	base resolution:   1920x1080
+10:10:12.909: 	output resolution: 1440x900
+10:10:12.909: 	downscale filter:  Bilinear
+10:10:12.909: 	fps:               24000/1001
+10:10:12.909: 	format:            NV12
+10:10:12.909: 	YUV mode:          Rec. 709/Partial
+10:10:12.909: NV12 texture support enabled
+10:10:12.909: P010 texture support not available
+10:10:12.919: Audio monitoring device:
+10:10:12.919: 	name: Source Audio/Sink sink
+10:10:12.919: 	id: Source
+10:10:12.975: ---------------------------------
+10:10:12.988: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:10:12.999: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:10:13.011: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:10:13.011: Failed to initialize module 'decklink.so'
+10:10:13.685: [pipewire] No capture sources available
+10:10:13.744: v4l2loopback not installed, virtual camera not registered
+10:10:13.761: [obs-browser]: Version 2.24.2
+10:10:13.761: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+10:10:15.192: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+10:10:15.192: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+10:10:15.192: FFmpeg VAAPI H264 encoding not supported
+10:10:15.192: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+10:10:15.192: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+10:10:15.193: FFmpeg VAAPI AV1 encoding not supported
+10:10:15.193: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+10:10:15.193: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+10:10:15.193: FFmpeg VAAPI HEVC encoding not supported
+10:10:15.324: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+10:10:15.324: 
+10:10:15.325: NVENC not supported
+10:10:15.325: Failed to initialize module 'obs-nvenc.so'
+10:10:15.599: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.3 | RPC Version: 1)
+10:10:15.599: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.7.2 | Qt version (run-time): 6.7.2
+10:10:15.599: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+10:10:15.600: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+10:10:15.614: [obs-websocket] [obs_module_load] Module loaded.
+10:10:15.790: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+10:10:15.790: ---------------------------------
+10:10:15.790:   Loaded Modules:
+10:10:15.790:     vlc-video.so
+10:10:15.790:     text-freetype2.so
+10:10:15.790:     rtmp-services.so
+10:10:15.790:     obs-x264.so
+10:10:15.790:     obs-websocket.so
+10:10:15.790:     obs-webrtc.so
+10:10:15.790:     obs-vst.so
+10:10:15.790:     obs-transitions.so
+10:10:15.790:     obs-qsv11.so
+10:10:15.790:     obs-outputs.so
+10:10:15.790:     obs-libfdk.so
+10:10:15.790:     obs-filters.so
+10:10:15.790:     obs-ffmpeg.so
+10:10:15.790:     obs-browser.so
+10:10:15.791:     linux-v4l2.so
+10:10:15.791:     linux-pulseaudio.so
+10:10:15.791:     linux-pipewire.so
+10:10:15.791:     linux-jack.so
+10:10:15.791:     linux-capture.so
+10:10:15.791:     linux-alsa.so
+10:10:15.791:     image-source.so
+10:10:15.791:     frontend-tools.so
+10:10:15.791:     decklink-output-ui.so
+10:10:15.791:     decklink-captions.so
+10:10:15.791: ---------------------------------
+10:10:15.791: ---------------------------------
+10:10:15.791: Available Encoders:
+10:10:15.791:   Video Encoders:
+10:10:15.791: 	- ffmpeg_svt_av1 (SVT-AV1)
+10:10:15.791: 	- ffmpeg_aom_av1 (AOM AV1)
+10:10:15.791: 	- obs_x264 (x264)
+10:10:15.791:   Audio Encoders:
+10:10:15.791: 	- ffmpeg_aac (FFmpeg AAC)
+10:10:15.791: 	- ffmpeg_opus (FFmpeg Opus)
+10:10:15.791: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+10:10:15.791: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+10:10:15.791: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+10:10:15.791: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+10:10:15.791: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+10:10:15.791: 	- libfdk_aac (libfdk AAC)
+10:10:15.791: ==== Startup complete ===============================================
+10:10:15.899: All scene data cleared
+10:10:15.899: ------------------------------------------------
+10:10:15.909: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+10:10:15.909: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:10:15.910: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+10:10:15.910: [Loaded global audio device]: 'Desktop Audio'
+10:10:15.910: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+10:10:15.911: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:10:15.911: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+10:10:15.934: pulse-am: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+10:10:15.934: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+10:10:15.935: pulse-am: Started Monitoring in 'Source'
+10:10:15.937: [Loaded global audio device]: 'Mic/Aux'
+10:10:15.937:     - filter: 'Noise Gate' (noise_gate_filter)
+10:10:15.937:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+10:10:15.937:     - filter: 'Limiter' (limiter_filter)
+10:10:15.937:     - monitoring: monitor and output
+10:10:15.939: v4l2-input: Start capture from /dev/video0
+10:10:15.939: v4l2-input: Unable to open device
+10:10:15.939: v4l2-input: Initialization failed, errno: No such file or directory
+10:10:15.939: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/emojify.gif'
+10:10:15.939: [image_source: 'lain-icon'] failed to load texture '/home/slvt/pics/gifs/emojify.gif'
+10:10:15.940: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/chatting.gif'
+10:10:15.940: [image_source: 'chatting'] failed to load texture '/home/slvt/pics/gifs/chatting.gif'
+10:10:15.940: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/cute-pepe-lmao.gif'
+10:10:15.940: [image_source: 'pepo-cat'] failed to load texture '/home/slvt/pics/gifs/cute-pepe-lmao.gif'
+10:10:15.940: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/pepe-tea.gif'
+10:10:15.940: [image_source: 'pepo-tea'] failed to load texture '/home/slvt/pics/gifs/pepe-tea.gif'
+10:10:16.201: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:10:16.201: 	title: unknown
+10:10:16.201: 	class: unknown
+10:10:16.201: 
+10:10:16.202: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/pepe-band.gif'
+10:10:16.203: [image_source: 'pepo-band'] failed to load texture '/home/slvt/pics/gifs/pepe-band.gif'
+10:10:16.203: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/pepe-weirdge.gif'
+10:10:16.203: [image_source: 'pepo-weirdge'] failed to load texture '/home/slvt/pics/gifs/pepe-weirdge.gif'
+10:10:16.203: init_animated_gif: Failed to open file '/home/slvt/pics/gifs/pepe-smoking.gif'
+10:10:16.203: [image_source: 'pepo-smoke'] failed to load texture '/home/slvt/pics/gifs/pepe-smoking.gif'
+10:10:16.204: Failed to open file '/home/slvt/pics/pfp/e93dd5040011c099c624f17653db0d5c.png': No such file or directory
+10:10:16.205: gs_image_file_init_internal: Failed to load file '/home/slvt/pics/pfp/e93dd5040011c099c624f17653db0d5c.png'
+10:10:16.205: [image_source: 'pepe-tux'] failed to load texture '/home/slvt/pics/pfp/e93dd5040011c099c624f17653db0d5c.png'
+10:10:16.208: Switched to scene 'w/e'
+10:10:16.208: ------------------------------------------------
+10:10:16.208: Loaded scenes:
+10:10:16.208: - scene 'w/e':
+10:10:16.208:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+10:10:16.208:     - source: 'lain-icon' (image_source)
+10:10:16.208:     - source: 'pepe-tux' (image_source)
+10:10:16.208:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+10:10:16.208:     - source: 'pepo-band' (image_source)
+10:10:16.208:     - source: 'chatting' (image_source)
+10:10:16.208:     - source: 'pepo-cat' (image_source)
+10:10:16.208:     - source: 'pepo-tea' (image_source)
+10:10:16.208:     - source: 'pepo-smoke' (image_source)
+10:10:16.208:     - source: 'pepo-weirdge' (image_source)
+10:10:16.208:     - source: 'alertbox' (browser_source)
+10:10:16.208:     - source: 'Text (FreeType 2)' (text_ft2_source_v2)
+10:10:16.208: - scene 'oeulmtmoeut':
+10:10:16.208: ------------------------------------------------
+10:10:16.438: Unhandled client message:  "_NET_WM_NAME"
+10:10:16.438: Unhandled client message:  "_NET_WM_NAME"
+10:10:16.438: Unhandled client message:  "_NET_WM_NAME"
+10:10:16.438: Unhandled client message:  "_NET_WM_NAME"
+10:10:16.560: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+10:10:16.560: 
+10:10:16.582: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+10:10:16.582: 
+10:11:05.808: User switched to scene 'oeulmtmoeut'
+10:11:06.399: User switched to scene 'w/e'
+10:32:34.844: adding 64 milliseconds of audio buffering, total audio buffering is now 128 milliseconds (source: Mic/Aux)
+10:32:34.844: 
