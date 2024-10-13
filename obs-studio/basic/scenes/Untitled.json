@@ -485,28 +485,28 @@
                         "id": 3,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": -51.0,
+                            "y": 815.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
+                            "x": -1.8722221851348877,
+                            "y": 0.50925922393798828
                         },
                         "scale": {
-                            "x": 1.0,
+                            "x": -1.0,
                             "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 1.0,
+                            "x": -1.0,
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 577.0,
+                            "y": 265.0
                         },
                         "bounds_rel": {
-                            "x": 3.5555555820465088,
-                            "y": 2.0
+                            "x": 1.0685185194015503,
+                            "y": 0.49074074625968933
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1043,14 +1043,14 @@
             "id": "xcomposite_input",
             "versioned_id": "xcomposite_input",
             "settings": {
+                "capture_window": "18945327\r\nedclub — Mozilla Firefox\r\nNavigator",
                 "cut_top": 118,
                 "cut_left": 0,
                 "cut_right": 0,
                 "cut_bot": 0,
                 "show_cursor": true,
                 "include_border": false,
-                "exclude_alpha": false,
-                "capture_window": "33554475\r\n900p resolution - Google Search — Mozilla Firefox\r\nNavigator"
+                "exclude_alpha": false
             },
             "mixers": 0,
             "sync": 0,

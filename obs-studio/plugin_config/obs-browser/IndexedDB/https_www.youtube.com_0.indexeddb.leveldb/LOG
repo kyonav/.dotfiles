@@ -1,14 +1,14 @@
-2024/09/18-17:29:20.509 53a9f Reusing MANIFEST /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/18-17:29:20.510 53a9f Recovering log #388
-2024/09/18-17:29:20.510 53a9f Reusing old log /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000388.log 
-2024/09/18-17:29:20.511 53a9f Delete type=2 #386
-2024/09/18-17:29:20.730 53a9d Level-0 table #393: started
-2024/09/18-17:29:20.774 53a9d Level-0 table #393: 6921 bytes OK
-2024/09/18-17:29:20.919 53a9d Delete type=0 #388
-2024/09/18-17:29:20.919 53a9d Manual compaction at level-0 from '\x00q\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00r\x00\x00\x00' @ 0 : 0; will stop at '\x00q\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\x842m yB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 19101 : 1
-2024/09/18-17:29:20.919 53a9d Compacting 1@0 + 1@1 files
-2024/09/18-17:29:20.996 53a9d Generated table #394@0: 1434 keys, 14668 bytes
-2024/09/18-17:29:20.996 53a9d Compacted 1@0 + 1@1 files => 14668 bytes
-2024/09/18-17:29:21.140 53a9d compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/09/18-17:29:21.141 53a9d Delete type=2 #393
-2024/09/18-17:29:21.141 53a9d Manual compaction at level-0 from '\x00q\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\x842m yB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 19101 : 1 .. '\x00r\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/19-14:48:28.880 18378a Reusing MANIFEST /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/19-14:48:28.881 18378a Recovering log #396
+2024/09/19-14:48:28.881 18378a Reusing old log /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000396.log 
+2024/09/19-14:48:28.881 18378a Delete type=2 #394
+2024/09/19-14:48:29.595 1837ce Level-0 table #401: started
+2024/09/19-14:48:29.673 1837ce Level-0 table #401: 9606 bytes OK
+2024/09/19-14:48:29.817 1837ce Delete type=0 #396
+2024/09/19-14:48:29.817 1837ce Manual compaction at level-0 from '\x00s\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00t\x00\x00\x00' @ 0 : 0; will stop at '\x00s\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0}\xc5x yB\x00\x03\x00\x00\x00\x00\x00\x00\x10@' @ 19461 : 1
+2024/09/19-14:48:29.817 1837ce Compacting 1@0 + 1@1 files
+2024/09/19-14:48:29.906 1837ce Generated table #402@0: 1440 keys, 14794 bytes
+2024/09/19-14:48:29.906 1837ce Compacted 1@0 + 1@1 files => 14794 bytes
+2024/09/19-14:48:30.073 1837ce compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/19-14:48:30.073 1837ce Delete type=2 #401
+2024/09/19-14:48:30.073 1837ce Manual compaction at level-0 from '\x00s\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0}\xc5x yB\x00\x03\x00\x00\x00\x00\x00\x00\x10@' @ 19461 : 1 .. '\x00t\x00\x00\x00' @ 0 : 0; will stop at (end)

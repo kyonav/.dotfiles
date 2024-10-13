@@ -66,21 +66,21 @@ static const char *termcmd[]  = { "st", NULL };
 #include "shiftview.c" /* switch between dekstops prev/next desktop */
 static const Key keys[] = {
     /* modifier             key     function        argument */
-	{ MODKEY,               33,     spawn,          {.v = dmenucmd } }, // l
-	{ MODKEY|ShiftMask,     36,     spawn,          {.v = termcmd } }, // Return
-	{ MODKEY,               56,     togglebar,      {0} },          // x
-	{ MODKEY,               44,     focusstack,     {.i = +1 } },   // h
-	{ MODKEY,               45,     focusstack,     {.i = -1 } },   // t
+	{ MODKEY,               46,     spawn,          {.v = dmenucmd } }, // l
+	{ MODKEY,               36,     spawn,          {.v = termcmd } }, // Return
+	{ MODKEY,               53,     togglebar,      {0} },          // x
+	{ MODKEY,               43,     focusstack,     {.i = +1 } },   // h
+	{ MODKEY,               28,     focusstack,     {.i = -1 } },   // t
 //	{ MODKEY,               31,     incnmaster,     {.i = +1 } },   // ?
 //	{ MODKEY,               40,     incnmaster,     {.i = -1 } },   // ?
-	{ MODKEY,               43,     setmfact,       {.f = -0.05} }, // d?
-	{ MODKEY,               46,     setmfact,       {.f = +0.05} }, // j?
+	{ MODKEY,               40,     setmfact,       {.f = -0.05} }, // d?
+	{ MODKEY,               44,     setmfact,       {.f = +0.05} }, // j?
 	{ MODKEY,               36,     zoom,           {0} },          // Return
 	{ MODKEY,               23,     view,           {0} },          // Tab
-	{ MODKEY|ShiftMask,     31,     killclient,     {0} },          // c
-	{ MODKEY,               59,     setlayout,      {.v = &layouts[0]} }, // w
-	{ MODKEY,               60,     setlayout,      {.v = &layouts[1]} }, // v
-	{ MODKEY,               61,     setlayout,      {.v = &layouts[2]} }, // z
+	{ MODKEY|ShiftMask,     54,     killclient,     {0} },          // c
+	{ MODKEY,               25,     setlayout,      {.v = &layouts[0]} }, // w
+	{ MODKEY,               55,     setlayout,      {.v = &layouts[1]} }, // v
+	{ MODKEY,               52,     setlayout,      {.v = &layouts[2]} }, // z
 	{ MODKEY,               65,     setlayout,      {0} },          // space 
     { MODKEY|ShiftMask,     65,     togglefloating, {0} },          // space
 	{ MODKEY,               19,     view,           {.ui = ~0 } },  // 0
@@ -89,15 +89,15 @@ static const Key keys[] = {
 //  { MODKEY,               60,     focusmon,       {.i = +1 } },   // period
 //  { MODKEY|ShiftMask,     59,     tagmon,         {.i = -1 } },   // comma
 //  { MODKEY|ShiftMask,     60,     tagmon,         {.i = +1 } },   // period
-	TAGKEYS(                10,                     0)              // 
-	TAGKEYS(                11,                     1)              // 
-	TAGKEYS(                12,                     2)              // 
-	TAGKEYS(                13,                     3)              // 
-	TAGKEYS(                14,                     4)              // 
-	TAGKEYS(                15,                     5)              // 
-	TAGKEYS(                16,                     6)              // 
-	TAGKEYS(                17,                     7)              // 
-	TAGKEYS(                18,                     8)              // 
+	TAGKEYS(                38,                     0)              // 
+	TAGKEYS(                32,                     1)              // 
+	TAGKEYS(                26,                     2)              // 
+	TAGKEYS(                30,                     3)              // 
+	TAGKEYS(                31,                     4)              // 
+	TAGKEYS(                40,                     5)              // 
+	TAGKEYS(                43,                     6)              // 
+	TAGKEYS(                28,                     7)              // 
+	TAGKEYS(                57,                     8)              // 
 	{ MODKEY|ShiftMask,     24,     quit,           {0} },          // ;
 };
 

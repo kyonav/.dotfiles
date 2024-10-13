@@ -1,3 +1,3 @@
-2024/09/18-17:29:04.791 53938 Reusing MANIFEST /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/Local Storage/leveldb/MANIFEST-000001
-2024/09/18-17:29:04.805 53938 Recovering log #4
-2024/09/18-17:29:04.809 53938 Reusing old log /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/Local Storage/leveldb/000004.log 
+2024/09/18-19:58:58.345 7ec03 Reusing MANIFEST /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/Local Storage/leveldb/MANIFEST-000001
+2024/09/18-19:58:58.348 7ec03 Recovering log #4
+2024/09/18-19:58:58.370 7ec03 Reusing old log /home/kyo/.dotfiles/obs-studio/plugin_config/obs-browser/Local Storage/leveldb/000004.log 

@@ -27,7 +27,8 @@ nvidia-modprobe &
 
 # changing to the correct keyboard layout
 #setxkbmap -layout br -variant abnt2 &
-setxkbmap -layout us -variant dvp
+#setxkbmap -layout us -variant dvp
+setxkbmap -layout us
 
 # restore sound levels
 alsactl --file $XDG_CONFIG_HOME/alsa/asound.state restore
