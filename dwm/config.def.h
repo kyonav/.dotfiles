@@ -20,10 +20,10 @@ static const char *const autostart[] = { // cool-autostart patch
 };
 
 /* dwm colors */
-#include "/home/kyo/.cache/wal/colors-wal-dwm.h" // custom colors
+#include "/home/9ROT7XX/.cache/wal/colors-wal-dwm.h" // custom colors
 
 /* tagging */
-static const char *tags[] = { "  ", "", " ", "", " ", "", "", " ", " " };
+static const char *tags[] = { "  ~", "", " ", "", " ", "", "", " ", " " };
 
 static const Rule rules[] = {
 	/* xprop(1):

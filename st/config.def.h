@@ -94,11 +94,11 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.70;
+float alpha = 0.80;
 
 /* Terminal colors */
 
-#include "/home/kyo/.cache/wal/colors-wal-st.h" // custom colors
+#include "/home/9ROT7XX/.cache/wal/colors-wal-st.h" // custom colors
 
 /*
  * Default shape of cursor

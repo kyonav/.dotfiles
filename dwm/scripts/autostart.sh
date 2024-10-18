@@ -1,4 +1,4 @@
-    #! /bin/sh
+#! /bin/sh
 
 # configuring xrandr to adapt to my setup
 #xrandr --newmode "1440x900"  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync
@@ -50,8 +50,11 @@ flameshot &
 #nitrogen --set-auto ~/pics/wpps/wallhaven-2y6kd9.png & # bg wallpaper
 # setting a background wallpaper with feh 
 #feh --bg-scale $HOME/pics/wpps/wallhaven-gp6xpq.jpg &
-feh --bg-scale $HOME/pics/wpps/wallhaven-vqly23.jpg
+#feh --bg-scale $HOME/pics/wpps/wallhaven-vqly23.jpg
+feh --bg-scale $HOME/pics/wpps/wallhaven-7p5kkv.png
 
 # window compositor for enabling transparent windows
 killall xcompmgr
 xcompmgr &
+
+lxpolkit &
