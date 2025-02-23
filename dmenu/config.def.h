@@ -11,7 +11,7 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 
 /* dmenu colors */
 
-#include "/home/9ROT7XX/.cache/wal/colors-wal-dmenu.h" // custom colors
+#include "/home/kyoto/.cache/wal/colors-wal-dmenu.h" // custom colors
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;

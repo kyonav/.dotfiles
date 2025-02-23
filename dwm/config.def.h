@@ -20,10 +20,10 @@ static const char *const autostart[] = { // cool-autostart patch
 };
 
 /* dwm colors */
-#include "/home/9ROT7XX/.cache/wal/colors-wal-dwm.h" // custom colors
+#include "/home/kyoto/.cache/wal/colors-wal-dwm.h" // custom colors
 
 /* tagging */
-static const char *tags[] = { "  ~", "", " ", "", " ", "", "", " ", " " };
+static const char *tags[] = { "  ~", "", " ", "", " ", "", "", " ", " ", "?" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -31,8 +31,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Firefox",  NULL,       NULL,       3,            0,           -1 },
+    { "discord",  NULL,       NULL,       1,            0,           -1 },
 };
 
 /* layout(s) */
@@ -49,7 +49,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -66,39 +66,40 @@ static const char *termcmd[]  = { "st", NULL };
 #include "shiftview.c" /* switch between dekstops prev/next desktop */
 static const Key keys[] = {
     /* modifier             key     function        argument */
-	{ MODKEY,               46,     spawn,          {.v = dmenucmd } }, // l
+	{ MODKEY,               33,     spawn,          {.v = dmenucmd } }, // l
 	{ MODKEY,               36,     spawn,          {.v = termcmd } }, // Return
-	{ MODKEY,               53,     togglebar,      {0} },          // x
-	{ MODKEY,               43,     focusstack,     {.i = +1 } },   // h
-	{ MODKEY,               28,     focusstack,     {.i = -1 } },   // t
+	{ MODKEY,               56,     togglebar,      {0} },          // x
+	{ MODKEY,               44,     focusstack,     {.i = +1 } },   // h
+	{ MODKEY,               45,     focusstack,     {.i = -1 } },   // t
 //	{ MODKEY,               31,     incnmaster,     {.i = +1 } },   // ?
 //	{ MODKEY,               40,     incnmaster,     {.i = -1 } },   // ?
 	{ MODKEY,               40,     setmfact,       {.f = -0.05} }, // d?
 	{ MODKEY,               44,     setmfact,       {.f = +0.05} }, // j?
-	{ MODKEY,               36,     zoom,           {0} },          // Return
+	{ MODKEY|ShiftMask,     36,     zoom,           {0} },          // Return
 	{ MODKEY,               23,     view,           {0} },          // Tab
-	{ MODKEY|ShiftMask,     54,     killclient,     {0} },          // c
-	{ MODKEY,               25,     setlayout,      {.v = &layouts[0]} }, // w
-	{ MODKEY,               55,     setlayout,      {.v = &layouts[1]} }, // v
-	{ MODKEY,               52,     setlayout,      {.v = &layouts[2]} }, // z
+	{ MODKEY|ShiftMask,     31,     killclient,     {0} },          // c
+	{ MODKEY,               30,     setlayout,      {.v = &layouts[0]} }, // w
+	{ MODKEY,               31,     setlayout,      {.v = &layouts[1]} }, // v
+	{ MODKEY,               32,     setlayout,      {.v = &layouts[2]} }, // z
 	{ MODKEY,               65,     setlayout,      {0} },          // space 
     { MODKEY|ShiftMask,     65,     togglefloating, {0} },          // space
-	{ MODKEY,               19,     view,           {.ui = ~0 } },  // 0
-	{ MODKEY|ShiftMask,     19,     tag,            {.ui = ~0 } },  // 0
+	{ MODKEY,               16,     view,           {.ui = ~0 } },  // 0
+	{ MODKEY|ShiftMask,     16,     tag,            {.ui = ~0 } },  // 0
 //	{ MODKEY,               59,     focusmon,       {.i = -1 } },   // comma
 //  { MODKEY,               60,     focusmon,       {.i = +1 } },   // period
 //  { MODKEY|ShiftMask,     59,     tagmon,         {.i = -1 } },   // comma
 //  { MODKEY|ShiftMask,     60,     tagmon,         {.i = +1 } },   // period
-	TAGKEYS(                38,                     0)              // 
-	TAGKEYS(                32,                     1)              // 
-	TAGKEYS(                26,                     2)              // 
-	TAGKEYS(                30,                     3)              // 
-	TAGKEYS(                31,                     4)              // 
-	TAGKEYS(                40,                     5)              // 
-	TAGKEYS(                43,                     6)              // 
-	TAGKEYS(                28,                     7)              // 
-	TAGKEYS(                57,                     8)              // 
-	{ MODKEY|ShiftMask,     24,     quit,           {0} },          // ;
+	TAGKEYS(                11,                     0)              // 
+	TAGKEYS(                12,                     1)              // 
+	TAGKEYS(                13,                     2)              // 
+	TAGKEYS(                14,                     3)              // 
+	TAGKEYS(                15,                     4)              // 
+	TAGKEYS(                16,                     5)              // 
+	TAGKEYS(                17,                     6)              // 
+	TAGKEYS(                18,                     7)              // 
+	TAGKEYS(                19,                     8)              // 
+    TAGKEYS(                20,                     9)
+	{ MODKEY|ShiftMask,     53,     quit,           {0} },          // ;
 };
 
 /* button definitions */
