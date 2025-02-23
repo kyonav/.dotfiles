@@ -69,18 +69,18 @@ static const Key keys[] = {
 	{ MODKEY,               33,     spawn,          {.v = dmenucmd } }, // l
 	{ MODKEY,               36,     spawn,          {.v = termcmd } }, // Return
 	{ MODKEY,               56,     togglebar,      {0} },          // x
-	{ MODKEY,               44,     focusstack,     {.i = +1 } },   // h
-	{ MODKEY,               45,     focusstack,     {.i = -1 } },   // t
+	{ MODKEY,               54,     focusstack,     {.i = +1 } },   // j
+	{ MODKEY,               55,     focusstack,     {.i = -1 } },   // k
 //	{ MODKEY,               31,     incnmaster,     {.i = +1 } },   // ?
 //	{ MODKEY,               40,     incnmaster,     {.i = -1 } },   // ?
-	{ MODKEY,               40,     setmfact,       {.f = -0.05} }, // d?
-	{ MODKEY,               44,     setmfact,       {.f = +0.05} }, // j?
+	{ MODKEY,               40,     setmfact,       {.f = -0.05} }, // e
+	{ MODKEY,               41,     setmfact,       {.f = +0.05} }, // u
 	{ MODKEY|ShiftMask,     36,     zoom,           {0} },          // Return
 	{ MODKEY,               23,     view,           {0} },          // Tab
 	{ MODKEY|ShiftMask,     31,     killclient,     {0} },          // c
-	{ MODKEY,               30,     setlayout,      {.v = &layouts[0]} }, // w
-	{ MODKEY,               31,     setlayout,      {.v = &layouts[1]} }, // v
-	{ MODKEY,               32,     setlayout,      {.v = &layouts[2]} }, // z
+	{ MODKEY,               58,     setlayout,      {.v = &layouts[0]} }, // m
+	{ MODKEY,               59,     setlayout,      {.v = &layouts[1]} }, // w
+	{ MODKEY,               60,     setlayout,      {.v = &layouts[2]} }, // v
 	{ MODKEY,               65,     setlayout,      {0} },          // space 
     { MODKEY|ShiftMask,     65,     togglefloating, {0} },          // space
 	{ MODKEY,               16,     view,           {.ui = ~0 } },  // 0
