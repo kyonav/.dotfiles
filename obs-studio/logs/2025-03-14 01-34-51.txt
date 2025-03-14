@@ -1,0 +1,841 @@
+01:34:51.570: Using EGL/X11
+01:34:51.570: CPU Name: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+01:34:51.570: CPU Speed: 2699.965MHz
+01:34:51.570: Physical Cores: 2, Logical Cores: 4
+01:34:51.570: Physical Memory: 15758MB Total, 13247MB Free
+01:34:51.570: Kernel Version: Linux 6.13.6-zen1-1-zen
+01:34:51.570: Distribution: "Arch Linux" Unknown
+01:34:51.570: Session Type: tty
+01:34:51.570: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+01:34:51.571: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+01:34:51.571: Portable mode: false
+01:34:51.614: OBS 31.0.1 (linux)
+01:34:51.614: ---------------------------------
+01:34:51.615: ---------------------------------
+01:34:51.615: audio settings reset:
+01:34:51.615: 	samples per sec: 48000
+01:34:51.615: 	speakers:        2
+01:34:51.615: 	max buffering:   960 milliseconds
+01:34:51.615: 	buffering type:  dynamically increasing
+01:34:51.619: ---------------------------------
+01:34:51.619: Initializing OpenGL...
+01:34:51.710: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 620 (KBL GT2)
+01:34:51.710: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.1-arch1.2, shading language 4.60
+01:34:51.770: ---------------------------------
+01:34:51.770: video settings reset:
+01:34:51.770: 	base resolution:   1360x768
+01:34:51.770: 	output resolution: 1088x614
+01:34:51.770: 	downscale filter:  Bicubic
+01:34:51.770: 	fps:               30/1
+01:34:51.770: 	format:            NV12
+01:34:51.770: 	YUV mode:          Rec. 709/Partial
+01:34:51.770: NV12 texture support enabled
+01:34:51.771: P010 texture support not available
+01:34:51.777: Audio monitoring device:
+01:34:51.777: 	name: Default
+01:34:51.777: 	id: default
+01:34:51.892: ---------------------------------
+01:34:51.917: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:34:51.932: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+01:34:51.943: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:34:51.943: Failed to initialize module 'decklink.so'
+01:34:52.176: [pipewire] No capture sources available
+01:34:52.207: v4l2loopback not installed, virtual camera not registered
+01:34:52.856: VAAPI: API version 1.22
+01:34:52.867: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+01:34:52.867: FFmpeg VAAPI H264 encoding not supported
+01:34:52.886: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+01:34:52.886: FFmpeg VAAPI AV1 encoding not supported
+01:34:52.901: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+01:34:52.901: FFmpeg VAAPI HEVC encoding not supported
+01:34:52.942: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:34:52.942: 
+01:34:52.942: NVENC not supported
+01:34:52.942: Failed to initialize module 'obs-nvenc.so'
+01:34:53.076: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+01:34:53.076: 
+01:34:53.080: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+01:34:53.080: 
+01:34:53.080: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+01:34:53.118: ---------------------------------
+01:34:53.119:   Loaded Modules:
+01:34:53.119:     text-freetype2.so
+01:34:53.119:     rtmp-services.so
+01:34:53.119:     obs-x264.so
+01:34:53.119:     obs-webrtc.so
+01:34:53.119:     obs-vst.so
+01:34:53.119:     obs-transitions.so
+01:34:53.119:     obs-qsv11.so
+01:34:53.119:     obs-outputs.so
+01:34:53.119:     obs-libfdk.so
+01:34:53.119:     obs-filters.so
+01:34:53.119:     obs-ffmpeg.so
+01:34:53.119:     linux-v4l2.so
+01:34:53.119:     linux-pulseaudio.so
+01:34:53.119:     linux-pipewire.so
+01:34:53.119:     linux-jack.so
+01:34:53.119:     linux-capture.so
+01:34:53.119:     linux-alsa.so
+01:34:53.119:     image-source.so
+01:34:53.119:     frontend-tools.so
+01:34:53.119:     decklink-output-ui.so
+01:34:53.119:     decklink-captions.so
+01:34:53.119: ---------------------------------
+01:34:53.119: ---------------------------------
+01:34:53.119: Available Encoders:
+01:34:53.119:   Video Encoders:
+01:34:53.119: 	- ffmpeg_svt_av1 (SVT-AV1)
+01:34:53.119: 	- ffmpeg_aom_av1 (AOM AV1)
+01:34:53.119: 	- obs_x264 (x264)
+01:34:53.119:   Audio Encoders:
+01:34:53.119: 	- ffmpeg_aac (FFmpeg AAC)
+01:34:53.119: 	- ffmpeg_opus (FFmpeg Opus)
+01:34:53.119: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+01:34:53.119: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+01:34:53.119: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+01:34:53.119: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+01:34:53.119: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+01:34:53.119: 	- libfdk_aac (libfdk AAC)
+01:34:53.119: ==== Startup complete ===============================================
+01:34:53.259: All scene data cleared
+01:34:53.259: ------------------------------------------------
+01:34:53.265: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:34:53.265: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:34:53.265: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+01:34:53.265: [Loaded global audio device]: 'Desktop Audio'
+01:34:53.266: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:34:53.266: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:34:53.266: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:34:53.266: [Loaded global audio device]: 'Mic/Aux'
+01:34:53.268: Switched to scene 'Scene'
+01:34:53.268: ------------------------------------------------
+01:34:53.268: Loaded scenes:
+01:34:53.268: - scene 'Scene':
+01:34:53.268: ------------------------------------------------
+01:34:53.336: Unhandled client message:  "_NET_WM_NAME"
+01:34:53.337: Unhandled client message:  "_NET_WM_NAME"
+01:34:53.337: Unhandled client message:  "_NET_WM_NAME"
+01:34:53.337: Unhandled client message:  "_NET_WM_NAME"
+01:34:53.856: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+01:34:53.856: 
+01:35:16.272: pulse-input: Stopped recording from 'alsa_input.usb-Vimicro_corp._WEBCAM_RAZA_FHD-02_1080P-PCYES_WEBCAM_RAZA_FHD-02_1080P-PCYES-02.mono-fallback'
+01:35:16.272: pulse-input: Got 917 packets with 1100400 frames
+01:35:16.276: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:35:16.278: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+01:35:16.278: pulse-input: Started recording from 'alsa_input.usb-Vimicro_corp._WEBCAM_RAZA_FHD-02_1080P-PCYES_WEBCAM_RAZA_FHD-02_1080P-PCYES-02.mono-fallback'
+01:35:24.820: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:35:24.820: pulse-input: Got 333 packets with 399600 frames
+01:35:24.823: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:35:24.824: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:35:24.824: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:35:32.870: pulse-am: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:35:32.871: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+01:35:32.872: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo'
+01:35:32.872: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+01:35:44.948: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo'
+01:35:44.948: pulse-am: Got 483 packets with 579600 frames
+01:35:44.949: User changed audio monitoring for source 'Mic/Aux' to: none
+01:35:58.852: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:35:58.853: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:35:58.853: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+01:35:58.866: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+01:36:06.005: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Audio Input Capture (PulseAudio))
+01:36:06.005: 
+01:36:06.046: alsa-input: PCM 'default' rate set to 44100
+01:36:06.046: alsa-input: PCM 'default' channels set to 2
+01:36:06.113: User added source 'Audio Capture Device (ALSA)' (alsa_input_capture) to scene 'Scene'
+01:36:09.997: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+01:36:10.999: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+01:36:13.000: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+01:36:16.002: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+01:36:20.003: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+01:36:20.558: User Removed source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) from scene 'Scene'
+01:36:20.587: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:36:20.587: pulse-input: Got 863 packets with 1035600 frames
+01:36:22.989: User Removed source 'Audio Capture Device (ALSA)' (alsa_input_capture) from scene 'Scene'
+01:36:25.005: alsa-input: Failed to open 'front:CARD=PCH,D@': Device or resource busy
+01:36:30.005: alsa-input: Failed to open 'o': No such file or directory
+01:36:32.796: Source 'Scene' renamed to 'main'
+01:36:35.005: alsa-input: Failed to open 'o': No such file or directory
+01:36:40.006: alsa-input: Failed to open 'o': No such file or directory
+01:36:42.813: v4l2-input: Start capture from 
+01:36:42.813: v4l2-input: Unable to open device
+01:36:42.814: v4l2-input: Initialization failed, errno: No such file or directory
+01:36:42.830: User added source 'webcam' (v4l2_input) to scene 'main'
+01:36:42.907: v4l2-input: /dev/video1 seems to not support video capture
+01:36:42.962: v4l2-input: Found device 'WEBCAM RAZA FHD-02 1080P-PCYES:' at /dev/video0
+01:36:42.968: v4l2-input: Found input 'Camera 1' (Index 0)
+01:36:42.968: v4l2-controls: setting default for Power Line Frequency to 1
+01:36:42.968: v4l2-controls: setting default for Auto Exposure to 3
+01:36:42.970: v4l2-input: Pixelformat: Motion-JPEG (available)
+01:36:42.970: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:36:42.970: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:36:42.970: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+01:36:42.970: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:36:42.970: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:36:42.972: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+01:36:42.974: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+01:36:42.977: v4l2-input: Start capture from /dev/video0
+01:36:42.979: v4l2-input: Input: 0
+01:36:42.979: v4l2-input: Resolution: 1920x1080
+01:36:42.980: v4l2-input: Pixelformat: MJPG
+01:36:42.980: v4l2-input: Linesize: 0 Bytes
+01:36:42.980: v4l2-input: Framerate: 30.00 fps
+01:36:42.988: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:36:42.990: v4l2-input: Pixelformat: Motion-JPEG (available)
+01:36:42.990: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:36:42.990: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:36:42.990: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+01:36:42.990: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:36:42.990: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:36:42.994: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+01:36:42.996: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+01:36:43.008: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+01:36:43.159: v4l2-input: /dev/video0: select timed out
+01:36:43.159: v4l2-input: /dev/video0: failed to log status
+01:36:45.006: alsa-input: Failed to open 'o': No such file or directory
+01:36:50.006: alsa-input: Failed to open 'o': No such file or directory
+01:36:55.006: alsa-input: Failed to open 'o': No such file or directory
+01:36:57.930: v4l2-input: /dev/video0: Stopped capture after 369 frames
+01:36:57.932: v4l2-input: Start capture from /dev/video0
+01:36:57.933: v4l2-input: Input: 0
+01:36:57.935: v4l2-input: Resolution: 1920x1080
+01:36:57.935: v4l2-input: Pixelformat: MJPG
+01:36:57.935: v4l2-input: Linesize: 0 Bytes
+01:36:57.935: v4l2-input: Framerate: 30.00 fps
+01:36:57.937: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:36:58.105: v4l2-input: /dev/video0: select timed out
+01:36:58.105: v4l2-input: /dev/video0: failed to log status
+01:37:00.007: alsa-input: Failed to open 'o': No such file or directory
+01:37:01.408: v4l2-input: /dev/video0: Stopped capture after 81 frames
+01:37:01.410: v4l2-input: Start capture from /dev/video0
+01:37:01.410: v4l2-input: Input: 0
+01:37:01.412: v4l2-input: Resolution: 1920x1080
+01:37:01.412: v4l2-input: Pixelformat: MJPG
+01:37:01.412: v4l2-input: Linesize: 0 Bytes
+01:37:01.413: v4l2-input: Framerate: 30.00 fps
+01:37:01.415: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:01.583: v4l2-input: /dev/video0: select timed out
+01:37:01.584: v4l2-input: /dev/video0: failed to log status
+01:37:02.603: v4l2-input: /dev/video0: Stopped capture after 24 frames
+01:37:02.605: v4l2-input: Start capture from /dev/video0
+01:37:02.606: v4l2-input: Input: 0
+01:37:02.608: v4l2-input: Resolution: 1920x1080
+01:37:02.608: v4l2-input: Pixelformat: MJPG
+01:37:02.608: v4l2-input: Linesize: 0 Bytes
+01:37:02.609: v4l2-input: Framerate: 30.00 fps
+01:37:02.611: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:02.779: v4l2-input: /dev/video0: select timed out
+01:37:02.779: v4l2-input: /dev/video0: failed to log status
+01:37:05.007: alsa-input: Failed to open 'o': No such file or directory
+01:37:06.803: v4l2-input: /dev/video0: Stopped capture after 99 frames
+01:37:06.805: v4l2-input: Start capture from /dev/video0
+01:37:06.806: v4l2-input: Input: 0
+01:37:06.808: v4l2-input: Resolution: 1920x1080
+01:37:06.808: v4l2-input: Pixelformat: MJPG
+01:37:06.808: v4l2-input: Linesize: 0 Bytes
+01:37:06.809: v4l2-input: Framerate: 30.00 fps
+01:37:06.811: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:06.980: v4l2-input: /dev/video0: select timed out
+01:37:06.980: v4l2-input: /dev/video0: failed to log status
+01:37:07.452: v4l2-input: /dev/video0: Stopped capture after 10 frames
+01:37:07.454: v4l2-input: Start capture from /dev/video0
+01:37:07.455: v4l2-input: Input: 0
+01:37:07.457: v4l2-input: Resolution: 1920x1080
+01:37:07.457: v4l2-input: Pixelformat: MJPG
+01:37:07.457: v4l2-input: Linesize: 0 Bytes
+01:37:07.458: v4l2-input: Framerate: 30.00 fps
+01:37:07.461: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:07.628: v4l2-input: /dev/video0: select timed out
+01:37:07.629: v4l2-input: /dev/video0: failed to log status
+01:37:09.845: v4l2-input: /dev/video0: Stopped capture after 54 frames
+01:37:09.847: v4l2-input: Start capture from /dev/video0
+01:37:09.847: v4l2-input: Input: 0
+01:37:09.850: v4l2-input: Resolution: 1920x1080
+01:37:09.850: v4l2-input: Pixelformat: MJPG
+01:37:09.850: v4l2-input: Linesize: 0 Bytes
+01:37:09.851: v4l2-input: Framerate: 30.00 fps
+01:37:09.853: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:10.007: alsa-input: Failed to open 'o': No such file or directory
+01:37:10.021: v4l2-input: /dev/video0: select timed out
+01:37:10.021: v4l2-input: /dev/video0: failed to log status
+01:37:15.007: alsa-input: Failed to open 'o': No such file or directory
+01:37:20.007: alsa-input: Failed to open 'o': No such file or directory
+01:37:25.008: alsa-input: Failed to open 'o': No such file or directory
+01:37:26.045: v4l2-input: /dev/video0: Stopped capture after 399 frames
+01:37:26.047: v4l2-input: Start capture from /dev/video0
+01:37:26.047: v4l2-input: Input: 0
+01:37:26.050: v4l2-input: Resolution: 1920x1080
+01:37:26.050: v4l2-input: Pixelformat: MJPG
+01:37:26.050: v4l2-input: Linesize: 0 Bytes
+01:37:26.051: v4l2-input: Framerate: 30.00 fps
+01:37:26.053: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:26.221: v4l2-input: /dev/video0: select timed out
+01:37:26.221: v4l2-input: /dev/video0: failed to log status
+01:37:28.882: v4l2-input: /dev/video0: Stopped capture after 65 frames
+01:37:28.884: v4l2-input: Start capture from /dev/video0
+01:37:28.885: v4l2-input: Input: 0
+01:37:28.887: v4l2-input: Resolution: 1920x1080
+01:37:28.887: v4l2-input: Pixelformat: MJPG
+01:37:28.887: v4l2-input: Linesize: 0 Bytes
+01:37:28.888: v4l2-input: Framerate: 30.00 fps
+01:37:28.890: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:29.058: v4l2-input: /dev/video0: select timed out
+01:37:29.059: v4l2-input: /dev/video0: failed to log status
+01:37:29.059: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:29.061: v4l2-input: Start capture from /dev/video0
+01:37:29.062: v4l2-input: Input: 0
+01:37:29.065: v4l2-input: Resolution: 1920x1080
+01:37:29.065: v4l2-input: Pixelformat: MJPG
+01:37:29.065: v4l2-input: Linesize: 0 Bytes
+01:37:29.066: v4l2-input: Framerate: 30.00 fps
+01:37:29.069: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:29.253: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:37:29.260: v4l2-input: Start capture from /dev/video0
+01:37:29.262: v4l2-input: Input: 0
+01:37:29.268: v4l2-input: Resolution: 1920x1080
+01:37:29.268: v4l2-input: Pixelformat: MJPG
+01:37:29.269: v4l2-input: Linesize: 0 Bytes
+01:37:29.271: v4l2-input: Framerate: 30.00 fps
+01:37:29.283: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:29.452: v4l2-input: /dev/video0: select timed out
+01:37:29.452: v4l2-input: /dev/video0: failed to log status
+01:37:30.008: alsa-input: Failed to open 'o': No such file or directory
+01:37:30.741: v4l2-input: /dev/video0: Stopped capture after 31 frames
+01:37:30.743: v4l2-input: Start capture from /dev/video0
+01:37:30.743: v4l2-input: Input: 0
+01:37:30.746: v4l2-input: Resolution: 1920x1080
+01:37:30.746: v4l2-input: Pixelformat: MJPG
+01:37:30.746: v4l2-input: Linesize: 0 Bytes
+01:37:30.747: v4l2-input: Framerate: 30.00 fps
+01:37:30.749: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:30.917: v4l2-input: /dev/video0: select timed out
+01:37:30.917: v4l2-input: /dev/video0: failed to log status
+01:37:30.917: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:30.919: v4l2-input: Start capture from /dev/video0
+01:37:30.919: v4l2-input: Input: 0
+01:37:30.922: v4l2-input: Resolution: 1920x1080
+01:37:30.922: v4l2-input: Pixelformat: MJPG
+01:37:30.922: v4l2-input: Linesize: 0 Bytes
+01:37:30.923: v4l2-input: Framerate: 30.00 fps
+01:37:30.925: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:31.105: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:37:31.109: v4l2-input: Start capture from /dev/video0
+01:37:31.110: v4l2-input: Input: 0
+01:37:31.113: v4l2-input: Resolution: 1920x1080
+01:37:31.113: v4l2-input: Pixelformat: MJPG
+01:37:31.113: v4l2-input: Linesize: 0 Bytes
+01:37:31.114: v4l2-input: Framerate: 30.00 fps
+01:37:31.117: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:31.285: v4l2-input: /dev/video0: select timed out
+01:37:31.285: v4l2-input: /dev/video0: failed to log status
+01:37:31.285: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:31.290: v4l2-input: Start capture from /dev/video0
+01:37:31.291: v4l2-input: Input: 0
+01:37:31.294: v4l2-input: Resolution: 1920x1080
+01:37:31.294: v4l2-input: Pixelformat: MJPG
+01:37:31.294: v4l2-input: Linesize: 0 Bytes
+01:37:31.295: v4l2-input: Framerate: 30.00 fps
+01:37:31.303: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:31.471: v4l2-input: /dev/video0: select timed out
+01:37:31.472: v4l2-input: /dev/video0: failed to log status
+01:37:32.145: v4l2-input: /dev/video0: Stopped capture after 15 frames
+01:37:32.149: v4l2-input: Start capture from /dev/video0
+01:37:32.150: v4l2-input: Input: 0
+01:37:32.152: v4l2-input: Resolution: 1920x1080
+01:37:32.152: v4l2-input: Pixelformat: MJPG
+01:37:32.152: v4l2-input: Linesize: 0 Bytes
+01:37:32.153: v4l2-input: Framerate: 30.00 fps
+01:37:32.155: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:32.323: v4l2-input: /dev/video0: select timed out
+01:37:32.323: v4l2-input: /dev/video0: failed to log status
+01:37:32.323: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:32.326: v4l2-input: Start capture from /dev/video0
+01:37:32.328: v4l2-input: Input: 0
+01:37:32.331: v4l2-input: Resolution: 1920x1080
+01:37:32.331: v4l2-input: Pixelformat: MJPG
+01:37:32.331: v4l2-input: Linesize: 0 Bytes
+01:37:32.332: v4l2-input: Framerate: 30.00 fps
+01:37:32.337: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:32.525: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:37:32.528: v4l2-input: Start capture from /dev/video0
+01:37:32.529: v4l2-input: Input: 0
+01:37:32.532: v4l2-input: Resolution: 1920x1080
+01:37:32.532: v4l2-input: Pixelformat: MJPG
+01:37:32.532: v4l2-input: Linesize: 0 Bytes
+01:37:32.533: v4l2-input: Framerate: 30.00 fps
+01:37:32.538: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:32.706: v4l2-input: /dev/video0: select timed out
+01:37:32.706: v4l2-input: /dev/video0: failed to log status
+01:37:33.315: v4l2-input: /dev/video0: Stopped capture after 14 frames
+01:37:33.317: v4l2-input: Start capture from /dev/video0
+01:37:33.317: v4l2-input: Input: 0
+01:37:33.319: v4l2-input: Resolution: 1920x1080
+01:37:33.319: v4l2-input: Pixelformat: MJPG
+01:37:33.319: v4l2-input: Linesize: 0 Bytes
+01:37:33.321: v4l2-input: Framerate: 30.00 fps
+01:37:33.323: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:33.491: v4l2-input: /dev/video0: select timed out
+01:37:33.491: v4l2-input: /dev/video0: failed to log status
+01:37:34.554: v4l2-input: /dev/video0: Stopped capture after 25 frames
+01:37:34.556: v4l2-input: Start capture from /dev/video0
+01:37:34.557: v4l2-input: Input: 0
+01:37:34.559: v4l2-input: Resolution: 1920x1080
+01:37:34.559: v4l2-input: Pixelformat: MJPG
+01:37:34.559: v4l2-input: Linesize: 0 Bytes
+01:37:34.560: v4l2-input: Framerate: 30.00 fps
+01:37:34.563: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:34.730: v4l2-input: /dev/video0: select timed out
+01:37:34.731: v4l2-input: /dev/video0: failed to log status
+01:37:35.008: alsa-input: Failed to open 'o': No such file or directory
+01:37:36.077: v4l2-input: /dev/video0: Stopped capture after 32 frames
+01:37:36.079: v4l2-input: Start capture from /dev/video0
+01:37:36.080: v4l2-input: Input: 0
+01:37:36.082: v4l2-input: Resolution: 1920x1080
+01:37:36.082: v4l2-input: Pixelformat: MJPG
+01:37:36.082: v4l2-input: Linesize: 0 Bytes
+01:37:36.084: v4l2-input: Framerate: 30.00 fps
+01:37:36.086: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:36.254: v4l2-input: /dev/video0: select timed out
+01:37:36.254: v4l2-input: /dev/video0: failed to log status
+01:37:40.008: alsa-input: Failed to open 'o': No such file or directory
+01:37:40.715: v4l2-input: /dev/video0: Stopped capture after 110 frames
+01:37:40.717: v4l2-input: Start capture from /dev/video0
+01:37:40.718: v4l2-input: Input: 0
+01:37:40.720: v4l2-input: Resolution: 1920x1080
+01:37:40.720: v4l2-input: Pixelformat: MJPG
+01:37:40.720: v4l2-input: Linesize: 0 Bytes
+01:37:40.721: v4l2-input: Framerate: 30.00 fps
+01:37:40.723: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:40.891: v4l2-input: /dev/video0: select timed out
+01:37:40.891: v4l2-input: /dev/video0: failed to log status
+01:37:40.891: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:40.896: v4l2-input: Start capture from /dev/video0
+01:37:40.898: v4l2-input: Input: 0
+01:37:40.901: v4l2-input: Resolution: 1920x1080
+01:37:40.901: v4l2-input: Pixelformat: MJPG
+01:37:40.901: v4l2-input: Linesize: 0 Bytes
+01:37:40.902: v4l2-input: Framerate: 30.00 fps
+01:37:40.909: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:41.094: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:37:41.100: v4l2-input: Start capture from /dev/video0
+01:37:41.102: v4l2-input: Input: 0
+01:37:41.105: v4l2-input: Resolution: 1920x1080
+01:37:41.105: v4l2-input: Pixelformat: MJPG
+01:37:41.105: v4l2-input: Linesize: 0 Bytes
+01:37:41.106: v4l2-input: Framerate: 30.00 fps
+01:37:41.114: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:41.283: v4l2-input: /dev/video0: select timed out
+01:37:41.283: v4l2-input: /dev/video0: failed to log status
+01:37:42.430: v4l2-input: /dev/video0: Stopped capture after 27 frames
+01:37:42.432: v4l2-input: Start capture from /dev/video0
+01:37:42.432: v4l2-input: Input: 0
+01:37:42.434: v4l2-input: Resolution: 1920x1080
+01:37:42.434: v4l2-input: Pixelformat: MJPG
+01:37:42.434: v4l2-input: Linesize: 0 Bytes
+01:37:42.435: v4l2-input: Framerate: 30.00 fps
+01:37:42.438: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:42.606: v4l2-input: /dev/video0: select timed out
+01:37:42.606: v4l2-input: /dev/video0: failed to log status
+01:37:42.606: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:42.610: v4l2-input: Start capture from /dev/video0
+01:37:42.612: v4l2-input: Input: 0
+01:37:42.615: v4l2-input: Resolution: 1920x1080
+01:37:42.615: v4l2-input: Pixelformat: MJPG
+01:37:42.615: v4l2-input: Linesize: 0 Bytes
+01:37:42.616: v4l2-input: Framerate: 30.00 fps
+01:37:42.623: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:42.791: v4l2-input: /dev/video0: select timed out
+01:37:42.791: v4l2-input: /dev/video0: failed to log status
+01:37:42.791: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:42.796: v4l2-input: Start capture from /dev/video0
+01:37:42.798: v4l2-input: Input: 0
+01:37:42.801: v4l2-input: Resolution: 1920x1080
+01:37:42.801: v4l2-input: Pixelformat: MJPG
+01:37:42.801: v4l2-input: Linesize: 0 Bytes
+01:37:42.802: v4l2-input: Framerate: 30.00 fps
+01:37:42.811: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:42.980: v4l2-input: /dev/video0: select timed out
+01:37:42.980: v4l2-input: /dev/video0: failed to log status
+01:37:43.955: v4l2-input: /dev/video0: Stopped capture after 24 frames
+01:37:43.958: v4l2-input: Start capture from /dev/video0
+01:37:43.959: v4l2-input: Input: 0
+01:37:43.961: v4l2-input: Resolution: 1920x1080
+01:37:43.961: v4l2-input: Pixelformat: MJPG
+01:37:43.961: v4l2-input: Linesize: 0 Bytes
+01:37:43.962: v4l2-input: Framerate: 30.00 fps
+01:37:43.965: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:44.133: v4l2-input: /dev/video0: select timed out
+01:37:44.133: v4l2-input: /dev/video0: failed to log status
+01:37:44.133: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:44.135: v4l2-input: Start capture from /dev/video0
+01:37:44.136: v4l2-input: Input: 0
+01:37:44.138: v4l2-input: Resolution: 1920x1080
+01:37:44.138: v4l2-input: Pixelformat: MJPG
+01:37:44.138: v4l2-input: Linesize: 0 Bytes
+01:37:44.139: v4l2-input: Framerate: 30.00 fps
+01:37:44.142: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:44.309: v4l2-input: /dev/video0: select timed out
+01:37:44.310: v4l2-input: /dev/video0: failed to log status
+01:37:44.310: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:44.314: v4l2-input: Start capture from /dev/video0
+01:37:44.316: v4l2-input: Input: 0
+01:37:44.319: v4l2-input: Resolution: 1920x1080
+01:37:44.319: v4l2-input: Pixelformat: MJPG
+01:37:44.319: v4l2-input: Linesize: 0 Bytes
+01:37:44.320: v4l2-input: Framerate: 30.00 fps
+01:37:44.326: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:44.516: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:37:44.520: v4l2-input: Start capture from /dev/video0
+01:37:44.522: v4l2-input: Input: 0
+01:37:44.525: v4l2-input: Resolution: 1920x1080
+01:37:44.525: v4l2-input: Pixelformat: MJPG
+01:37:44.525: v4l2-input: Linesize: 0 Bytes
+01:37:44.527: v4l2-input: Framerate: 30.00 fps
+01:37:44.534: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:44.702: v4l2-input: /dev/video0: select timed out
+01:37:44.702: v4l2-input: /dev/video0: failed to log status
+01:37:44.702: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:44.708: v4l2-input: Start capture from /dev/video0
+01:37:44.710: v4l2-input: Input: 0
+01:37:44.713: v4l2-input: Resolution: 1920x1080
+01:37:44.713: v4l2-input: Pixelformat: MJPG
+01:37:44.713: v4l2-input: Linesize: 0 Bytes
+01:37:44.714: v4l2-input: Framerate: 30.00 fps
+01:37:44.721: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:44.890: v4l2-input: /dev/video0: select timed out
+01:37:44.890: v4l2-input: /dev/video0: failed to log status
+01:37:45.009: alsa-input: Failed to open 'o': No such file or directory
+01:37:46.070: v4l2-input: /dev/video0: Stopped capture after 28 frames
+01:37:46.072: v4l2-input: Start capture from /dev/video0
+01:37:46.073: v4l2-input: Input: 0
+01:37:46.075: v4l2-input: Resolution: 1920x1080
+01:37:46.075: v4l2-input: Pixelformat: MJPG
+01:37:46.075: v4l2-input: Linesize: 0 Bytes
+01:37:46.076: v4l2-input: Framerate: 30.00 fps
+01:37:46.079: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:46.246: v4l2-input: /dev/video0: select timed out
+01:37:46.246: v4l2-input: /dev/video0: failed to log status
+01:37:47.511: v4l2-input: /dev/video0: Stopped capture after 30 frames
+01:37:47.514: v4l2-input: Start capture from /dev/video0
+01:37:47.514: v4l2-input: Input: 0
+01:37:47.517: v4l2-input: Resolution: 1920x1080
+01:37:47.517: v4l2-input: Pixelformat: MJPG
+01:37:47.517: v4l2-input: Linesize: 0 Bytes
+01:37:47.518: v4l2-input: Framerate: 30.00 fps
+01:37:47.520: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:47.688: v4l2-input: /dev/video0: select timed out
+01:37:47.688: v4l2-input: /dev/video0: failed to log status
+01:37:50.009: alsa-input: Failed to open 'o': No such file or directory
+01:37:51.748: v4l2-input: /dev/video0: Stopped capture after 100 frames
+01:37:51.750: v4l2-input: Start capture from /dev/video0
+01:37:51.751: v4l2-input: Input: 0
+01:37:51.753: v4l2-input: Resolution: 1920x1080
+01:37:51.753: v4l2-input: Pixelformat: MJPG
+01:37:51.753: v4l2-input: Linesize: 0 Bytes
+01:37:51.754: v4l2-input: Framerate: 30.00 fps
+01:37:51.757: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:51.924: v4l2-input: /dev/video0: select timed out
+01:37:51.925: v4l2-input: /dev/video0: failed to log status
+01:37:51.925: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:37:51.930: v4l2-input: Start capture from /dev/video0
+01:37:51.932: v4l2-input: Input: 0
+01:37:51.934: v4l2-input: Resolution: 1920x1080
+01:37:51.935: v4l2-input: Pixelformat: MJPG
+01:37:51.935: v4l2-input: Linesize: 0 Bytes
+01:37:51.936: v4l2-input: Framerate: 30.00 fps
+01:37:51.943: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:52.112: v4l2-input: /dev/video0: select timed out
+01:37:52.112: v4l2-input: /dev/video0: failed to log status
+01:37:53.520: v4l2-input: /dev/video0: Stopped capture after 35 frames
+01:37:53.522: v4l2-input: Start capture from /dev/video0
+01:37:53.522: v4l2-input: Input: 0
+01:37:53.524: v4l2-input: Resolution: 1920x1080
+01:37:53.524: v4l2-input: Pixelformat: MJPG
+01:37:53.524: v4l2-input: Linesize: 0 Bytes
+01:37:53.526: v4l2-input: Framerate: 30.00 fps
+01:37:53.528: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:53.696: v4l2-input: /dev/video0: select timed out
+01:37:53.696: v4l2-input: /dev/video0: failed to log status
+01:37:55.009: alsa-input: Failed to open 'o': No such file or directory
+01:37:55.680: v4l2-input: /dev/video0: Stopped capture after 48 frames
+01:37:55.683: v4l2-input: Start capture from /dev/video0
+01:37:55.683: v4l2-input: Input: 0
+01:37:55.685: v4l2-input: Resolution: 1920x1080
+01:37:55.685: v4l2-input: Pixelformat: MJPG
+01:37:55.685: v4l2-input: Linesize: 0 Bytes
+01:37:55.686: v4l2-input: Framerate: 30.00 fps
+01:37:55.690: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:55.857: v4l2-input: /dev/video0: select timed out
+01:37:55.858: v4l2-input: /dev/video0: failed to log status
+01:37:56.963: v4l2-input: /dev/video0: Stopped capture after 26 frames
+01:37:56.965: v4l2-input: Start capture from /dev/video0
+01:37:56.966: v4l2-input: Input: 0
+01:37:56.968: v4l2-input: Resolution: 1920x1080
+01:37:56.968: v4l2-input: Pixelformat: MJPG
+01:37:56.968: v4l2-input: Linesize: 0 Bytes
+01:37:56.969: v4l2-input: Framerate: 30.00 fps
+01:37:56.971: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:57.139: v4l2-input: /dev/video0: select timed out
+01:37:57.139: v4l2-input: /dev/video0: failed to log status
+01:37:58.959: v4l2-input: /dev/video0: Stopped capture after 44 frames
+01:37:58.961: v4l2-input: Start capture from /dev/video0
+01:37:58.962: v4l2-input: Input: 0
+01:37:58.964: v4l2-input: Resolution: 1920x1080
+01:37:58.964: v4l2-input: Pixelformat: MJPG
+01:37:58.964: v4l2-input: Linesize: 0 Bytes
+01:37:58.966: v4l2-input: Framerate: 30.00 fps
+01:37:58.968: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:37:59.136: v4l2-input: /dev/video0: select timed out
+01:37:59.136: v4l2-input: /dev/video0: failed to log status
+01:38:00.009: alsa-input: Failed to open 'o': No such file or directory
+01:38:03.960: v4l2-input: /dev/video0: Stopped capture after 119 frames
+01:38:03.962: v4l2-input: Start capture from /dev/video0
+01:38:03.963: v4l2-input: Input: 0
+01:38:03.965: v4l2-input: Resolution: 1920x1080
+01:38:03.965: v4l2-input: Pixelformat: MJPG
+01:38:03.965: v4l2-input: Linesize: 0 Bytes
+01:38:03.966: v4l2-input: Framerate: 30.00 fps
+01:38:03.968: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:04.137: v4l2-input: /dev/video0: select timed out
+01:38:04.137: v4l2-input: /dev/video0: failed to log status
+01:38:04.137: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:38:04.142: v4l2-input: Start capture from /dev/video0
+01:38:04.144: v4l2-input: Input: 0
+01:38:04.147: v4l2-input: Resolution: 1920x1080
+01:38:04.147: v4l2-input: Pixelformat: MJPG
+01:38:04.147: v4l2-input: Linesize: 0 Bytes
+01:38:04.148: v4l2-input: Framerate: 30.00 fps
+01:38:04.155: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:04.326: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:38:04.329: v4l2-input: Start capture from /dev/video0
+01:38:04.330: v4l2-input: Input: 0
+01:38:04.333: v4l2-input: Resolution: 1920x1080
+01:38:04.333: v4l2-input: Pixelformat: MJPG
+01:38:04.333: v4l2-input: Linesize: 0 Bytes
+01:38:04.334: v4l2-input: Framerate: 30.00 fps
+01:38:04.338: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:04.506: v4l2-input: /dev/video0: select timed out
+01:38:04.506: v4l2-input: /dev/video0: failed to log status
+01:38:05.010: alsa-input: Failed to open 'o': No such file or directory
+01:38:05.264: v4l2-input: /dev/video0: Stopped capture after 17 frames
+01:38:05.266: v4l2-input: Start capture from /dev/video0
+01:38:05.267: v4l2-input: Input: 0
+01:38:05.269: v4l2-input: Resolution: 1920x1080
+01:38:05.269: v4l2-input: Pixelformat: MJPG
+01:38:05.269: v4l2-input: Linesize: 0 Bytes
+01:38:05.270: v4l2-input: Framerate: 30.00 fps
+01:38:05.272: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:05.440: v4l2-input: /dev/video0: select timed out
+01:38:05.441: v4l2-input: /dev/video0: failed to log status
+01:38:10.010: alsa-input: Failed to open 'o': No such file or directory
+01:38:10.893: v4l2-input: /dev/video0: Stopped capture after 135 frames
+01:38:10.895: v4l2-input: Start capture from /dev/video0
+01:38:10.895: v4l2-input: Input: 0
+01:38:10.897: v4l2-input: Resolution: 1920x1080
+01:38:10.897: v4l2-input: Pixelformat: MJPG
+01:38:10.897: v4l2-input: Linesize: 0 Bytes
+01:38:10.898: v4l2-input: Framerate: 30.00 fps
+01:38:10.901: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:11.069: v4l2-input: /dev/video0: select timed out
+01:38:11.069: v4l2-input: /dev/video0: failed to log status
+01:38:11.069: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:38:11.074: v4l2-input: Start capture from /dev/video0
+01:38:11.076: v4l2-input: Input: 0
+01:38:11.079: v4l2-input: Resolution: 1920x1080
+01:38:11.079: v4l2-input: Pixelformat: MJPG
+01:38:11.079: v4l2-input: Linesize: 0 Bytes
+01:38:11.081: v4l2-input: Framerate: 30.00 fps
+01:38:11.087: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:11.272: v4l2-input: /dev/video0: Stopped capture after 1 frames
+01:38:11.277: v4l2-input: Start capture from /dev/video0
+01:38:11.278: v4l2-input: Input: 0
+01:38:11.281: v4l2-input: Resolution: 1920x1080
+01:38:11.282: v4l2-input: Pixelformat: MJPG
+01:38:11.282: v4l2-input: Linesize: 0 Bytes
+01:38:11.283: v4l2-input: Framerate: 30.00 fps
+01:38:11.291: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:11.459: v4l2-input: /dev/video0: select timed out
+01:38:11.459: v4l2-input: /dev/video0: failed to log status
+01:38:12.085: v4l2-input: /dev/video0: Stopped capture after 14 frames
+01:38:12.087: v4l2-input: Start capture from /dev/video0
+01:38:12.088: v4l2-input: Input: 0
+01:38:12.091: v4l2-input: Resolution: 1920x1080
+01:38:12.091: v4l2-input: Pixelformat: MJPG
+01:38:12.091: v4l2-input: Linesize: 0 Bytes
+01:38:12.092: v4l2-input: Framerate: 30.00 fps
+01:38:12.094: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:12.262: v4l2-input: /dev/video0: select timed out
+01:38:12.262: v4l2-input: /dev/video0: failed to log status
+01:38:13.087: v4l2-input: /dev/video0: Stopped capture after 19 frames
+01:38:13.089: v4l2-input: Start capture from /dev/video0
+01:38:13.090: v4l2-input: Input: 0
+01:38:13.092: v4l2-input: Resolution: 1920x1080
+01:38:13.092: v4l2-input: Pixelformat: MJPG
+01:38:13.092: v4l2-input: Linesize: 0 Bytes
+01:38:13.093: v4l2-input: Framerate: 30.00 fps
+01:38:13.095: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:13.263: v4l2-input: /dev/video0: select timed out
+01:38:13.263: v4l2-input: /dev/video0: failed to log status
+01:38:13.678: v4l2-input: /dev/video0: Stopped capture after 8 frames
+01:38:13.680: v4l2-input: Start capture from /dev/video0
+01:38:13.681: v4l2-input: Input: 0
+01:38:13.684: v4l2-input: Resolution: 1920x1080
+01:38:13.684: v4l2-input: Pixelformat: MJPG
+01:38:13.684: v4l2-input: Linesize: 0 Bytes
+01:38:13.685: v4l2-input: Framerate: 30.00 fps
+01:38:13.688: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:13.856: v4l2-input: /dev/video0: select timed out
+01:38:13.856: v4l2-input: /dev/video0: failed to log status
+01:38:15.010: alsa-input: Failed to open 'o': No such file or directory
+01:38:15.416: v4l2-input: /dev/video0: Stopped capture after 37 frames
+01:38:15.419: v4l2-input: Start capture from /dev/video0
+01:38:15.419: v4l2-input: Input: 0
+01:38:15.422: v4l2-input: Resolution: 1920x1080
+01:38:15.422: v4l2-input: Pixelformat: MJPG
+01:38:15.422: v4l2-input: Linesize: 0 Bytes
+01:38:15.423: v4l2-input: Framerate: 30.00 fps
+01:38:15.425: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:15.593: v4l2-input: /dev/video0: select timed out
+01:38:15.593: v4l2-input: /dev/video0: failed to log status
+01:38:15.593: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:38:15.598: v4l2-input: Start capture from /dev/video0
+01:38:15.599: v4l2-input: Input: 0
+01:38:15.602: v4l2-input: Resolution: 1920x1080
+01:38:15.602: v4l2-input: Pixelformat: MJPG
+01:38:15.602: v4l2-input: Linesize: 0 Bytes
+01:38:15.604: v4l2-input: Framerate: 30.00 fps
+01:38:15.612: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:16.835: v4l2-input: /dev/video0: Stopped capture after 27 frames
+01:38:16.837: v4l2-input: Start capture from /dev/video0
+01:38:16.837: v4l2-input: Input: 0
+01:38:16.840: v4l2-input: Resolution: 1920x1080
+01:38:16.840: v4l2-input: Pixelformat: MJPG
+01:38:16.840: v4l2-input: Linesize: 0 Bytes
+01:38:16.841: v4l2-input: Framerate: 30.00 fps
+01:38:16.843: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:17.011: v4l2-input: /dev/video0: select timed out
+01:38:17.011: v4l2-input: /dev/video0: failed to log status
+01:38:17.011: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:38:17.016: v4l2-input: Start capture from /dev/video0
+01:38:17.019: v4l2-input: Input: 0
+01:38:17.022: v4l2-input: Resolution: 1920x1080
+01:38:17.022: v4l2-input: Pixelformat: MJPG
+01:38:17.022: v4l2-input: Linesize: 0 Bytes
+01:38:17.023: v4l2-input: Framerate: 30.00 fps
+01:38:17.030: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:19.327: v4l2-input: /dev/video0: Stopped capture after 54 frames
+01:38:19.330: v4l2-input: Start capture from /dev/video0
+01:38:19.331: v4l2-input: Input: 0
+01:38:19.333: v4l2-input: Resolution: 1920x1080
+01:38:19.333: v4l2-input: Pixelformat: MJPG
+01:38:19.333: v4l2-input: Linesize: 0 Bytes
+01:38:19.335: v4l2-input: Framerate: 30.00 fps
+01:38:19.337: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:19.505: v4l2-input: /dev/video0: select timed out
+01:38:19.505: v4l2-input: /dev/video0: failed to log status
+01:38:19.505: v4l2-input: /dev/video0: Stopped capture after 0 frames
+01:38:19.511: v4l2-input: Start capture from /dev/video0
+01:38:19.513: v4l2-input: Input: 0
+01:38:19.516: v4l2-input: Resolution: 1920x1080
+01:38:19.516: v4l2-input: Pixelformat: MJPG
+01:38:19.516: v4l2-input: Linesize: 0 Bytes
+01:38:19.517: v4l2-input: Framerate: 30.00 fps
+01:38:19.525: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+01:38:20.010: alsa-input: Failed to open 'o': No such file or directory
+01:38:25.011: alsa-input: Failed to open 'o': No such file or directory
+01:38:30.011: alsa-input: Failed to open 'o': No such file or directory
+01:38:35.012: alsa-input: Failed to open 'o': No such file or directory
+01:38:40.012: alsa-input: Failed to open 'o': No such file or directory
+01:38:45.012: alsa-input: Failed to open 'o': No such file or directory
+01:38:50.012: alsa-input: Failed to open 'o': No such file or directory
+01:38:55.013: alsa-input: Failed to open 'o': No such file or directory
+01:39:00.013: alsa-input: Failed to open 'o': No such file or directory
+01:39:05.013: alsa-input: Failed to open 'o': No such file or directory
+01:39:10.013: alsa-input: Failed to open 'o': No such file or directory
+01:39:15.013: alsa-input: Failed to open 'o': No such file or directory
+01:39:20.013: alsa-input: Failed to open 'o': No such file or directory
+01:39:23.551: pulse-input: Stopped recording from 'default'
+01:39:23.551: pulse-input: Got 9542 packets with 11450400 frames
+01:39:23.552: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.0) 15.0.0'
+01:39:23.552: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:39:23.552: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+01:39:25.014: alsa-input: Failed to open 'o': No such file or directory
+01:39:30.014: alsa-input: Failed to open 'o': No such file or directory
+01:39:35.014: alsa-input: Failed to open 'o': No such file or directory
+01:39:40.014: alsa-input: Failed to open 'o': No such file or directory
+01:39:45.014: alsa-input: Failed to open 'o': No such file or directory
+01:39:50.014: alsa-input: Failed to open 'o': No such file or directory
+01:39:55.015: alsa-input: Failed to open 'o': No such file or directory
+01:40:00.015: alsa-input: Failed to open 'o': No such file or directory
+01:40:05.015: alsa-input: Failed to open 'o': No such file or directory
+01:40:05.065: ==== Shutting down ==================================================
+01:40:05.077: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+01:40:05.077: pulse-input: Got 12470 packets with 14964000 frames
+01:40:05.077: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:40:05.077: pulse-input: Got 1659 packets with 1990800 frames
+01:40:05.102: v4l2-input: /dev/video0: Stopped capture after 2636 frames
+01:40:05.133: All scene data cleared
+01:40:05.133: ------------------------------------------------
+01:40:05.216: [Scripting] Total detached callbacks: 0
+01:40:05.217: Freeing OBS context data
+01:40:05.241: == Profiler Results =============================
+01:40:05.241: run_program_init: 1829.6 ms
+01:40:05.241:  ┣OBSApp::AppInit: 21.764 ms
+01:40:05.241:  ┃ ┗OBSApp::InitLocale: 2.72 ms
+01:40:05.241:  ┗OBSApp::OBSInit: 1758.24 ms
+01:40:05.241:    ┣obs_startup: 1.246 ms
+01:40:05.241:    ┗OBSBasic::OBSInit: 1713.67 ms
+01:40:05.241:      ┣OBSBasic::InitBasicConfig: 0.821 ms
+01:40:05.241:      ┣OBSBasic::ResetAudio: 0.353 ms
+01:40:05.241:      ┣OBSBasic::ResetVideo: 161.101 ms
+01:40:05.241:      ┃ ┗obs_init_graphics: 154.756 ms
+01:40:05.241:      ┃   ┗shader compilation: 59.237 ms
+01:40:05.241:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+01:40:05.241:      ┣OBSBasic::InitHotkeys: 0.022 ms
+01:40:05.241:      ┣obs_load_all_modules2: 1226.77 ms
+01:40:05.241:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+01:40:05.241:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+01:40:05.241:      ┃ ┣obs_init_module(decklink.so): 0.233 ms
+01:40:05.241:      ┃ ┣obs_init_module(frontend-tools.so): 119.85 ms
+01:40:05.241:      ┃ ┣obs_init_module(image-source.so): 0.012 ms
+01:40:05.241:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+01:40:05.241:      ┃ ┣obs_init_module(linux-capture.so): 0.721 ms
+01:40:05.241:      ┃ ┣obs_init_module(linux-jack.so): 0.004 ms
+01:40:05.241:      ┃ ┣obs_init_module(linux-pipewire.so): 25.869 ms
+01:40:05.241:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.015 ms
+01:40:05.241:      ┃ ┣obs_init_module(linux-v4l2.so): 6.065 ms
+01:40:05.241:      ┃ ┣obs_init_module(obs-ffmpeg.so): 417.836 ms
+01:40:05.241:      ┃ ┣obs_init_module(obs-filters.so): 0.059 ms
+01:40:05.241:      ┃ ┣obs_init_module(obs-libfdk.so): 0.003 ms
+01:40:05.241:      ┃ ┣obs_init_module(obs-nvenc.so): 0.182 ms
+01:40:05.241:      ┃ ┃ ┗nvenc_check: 0.151 ms
+01:40:05.241:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+01:40:05.242:      ┃ ┣obs_init_module(obs-qsv11.so): 16.967 ms
+01:40:05.242:      ┃ ┣obs_init_module(obs-transitions.so): 0.012 ms
+01:40:05.242:      ┃ ┣obs_init_module(obs-vst.so): 0.007 ms
+01:40:05.242:      ┃ ┣obs_init_module(obs-webrtc.so): 0.007 ms
+01:40:05.242:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+01:40:05.242:      ┃ ┣obs_init_module(rtmp-services.so): 4.189 ms
+01:40:05.242:      ┃ ┗obs_init_module(text-freetype2.so): 0.025 ms
+01:40:05.242:      ┣OBSBasic::InitService: 75.124 ms
+01:40:05.242:      ┣OBSBasic::ResetOutputs: 1.365 ms
+01:40:05.242:      ┣OBSBasic::CreateHotkeys: 0.07 ms
+01:40:05.242:      ┣OBSBasic::InitPrimitives: 0.345 ms
+01:40:05.242:      ┗OBSBasic::Load: 60.501 ms
+01:40:05.242: obs_hotkey_thread(25 ms): min=0.072 ms, median=0.364 ms, max=10.598 ms, 99th percentile=2.362 ms, 100% below 25 ms
+01:40:05.242: audio_thread(Audio): min=0.011 ms, median=0.083 ms, max=39.959 ms, 99th percentile=0.729 ms
+01:40:05.242: obs_graphics_thread(33.3333 ms): min=0.096 ms, median=1.797 ms, max=220.153 ms, 99th percentile=8.562 ms, 99.6346% below 33.333 ms
+01:40:05.242:  ┣tick_sources: min=0 ms, median=0.011 ms, max=212.575 ms, 99th percentile=0.07 ms
+01:40:05.242:  ┣output_frame: min=0.066 ms, median=0.692 ms, max=18.618 ms, 99th percentile=2.495 ms
+01:40:05.242:  ┃ ┗gs_context(video->graphics): min=0.066 ms, median=0.692 ms, max=18.614 ms, 99th percentile=2.486 ms
+01:40:05.242:  ┃   ┣render_video: min=0.015 ms, median=0.592 ms, max=18.35 ms, 99th percentile=2.115 ms
+01:40:05.242:  ┃   ┃ ┗render_main_texture: min=0.011 ms, median=0.589 ms, max=18.347 ms, 99th percentile=2.104 ms
+01:40:05.242:  ┃   ┗gs_flush: min=0.044 ms, median=0.118 ms, max=2.327 ms, 99th percentile=0.408 ms
+01:40:05.242:  ┗render_displays: min=0.004 ms, median=1.131 ms, max=84.923 ms, 99th percentile=4.903 ms
+01:40:05.242: =================================================
+01:40:05.242: == Profiler Time Between Calls ==================
+01:40:05.242: obs_hotkey_thread(25 ms): min=25.106 ms, median=25.463 ms, max=35.909 ms, 53.5778% within ±2% of 25 ms (0% lower, 46.4222% higher)
+01:40:05.242: obs_graphics_thread(33.3333 ms): min=4.426 ms, median=33.333 ms, max=220.164 ms, 98.2697% within ±2% of 33.333 ms (0.816765% lower, 0.913487% higher)
+01:40:05.242: =================================================
+01:40:05.271: Number of memory leaks: 0

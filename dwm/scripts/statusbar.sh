@@ -53,13 +53,13 @@
 #}
 
 dte(){ # adding date overlay
-    dte="$(date +"  %a, %b %d |  %l:%M:%S %p")"
+    dte="$(date +"  %a, %b %d ] [  %l:%M:%S %p")"
     echo -e "$dte"
 
 }
 
 mem(){ # adding memory overlay
-    mem=`free | awk '/Mem/ {printf " %d / %d MiB\n", $3 / 1024.0, $2 / 1024.0 }'`
+    mem=`free | awk '/Mem/ {printf " %d MiB | %d MiB\n", $3 / 1024.0, $2 / 1024.0 }'`
     echo -e "$mem"
 
 }

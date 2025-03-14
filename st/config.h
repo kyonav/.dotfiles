@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font ="UbuntuMonoNerdFont-Regular:size=15";
+static char *font ="UbuntuMonoNerdFont-Regular:size=12";
 static int borderpx = 10; /* modifies the window padding */
 
 /*

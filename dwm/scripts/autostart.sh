@@ -27,10 +27,13 @@ killall flameshot
 flameshot &
 
 # setting a background wallpaper with feh 
-feh --bg-scale $HOME/pics/wpps/33351.png
+feh --bg-scale $HOME/pic/wpp/7f8554.png
 
 # window compositor for enabling transparent windows
 killall xcompmgr
 xcompmgr &
 
 lxpolkit &
+
+# fvck off
+rm -rf $HOME/Downloads

@@ -1,17 +1,17 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 503447554,
+        "prev_ver": 520093697,
         "name": "Desktop Audio",
-        "uuid": "593068f0-1ed9-4dcc-afdf-65e9b552429d",
+        "uuid": "07dd6299-b2dc-489f-958e-afbba26ab19b",
         "id": "pulse_output_capture",
         "versioned_id": "pulse_output_capture",
         "settings": {
-            "device_id": "alsa_output.pci-0000_00_1b.0.analog-stereo.monitor"
+            "device_id": "default"
         },
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.31743475794792175,
+        "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -31,18 +31,18 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 503447554,
+        "prev_ver": 520093697,
         "name": "Mic/Aux",
-        "uuid": "78625fbe-09a6-400d-b0e4-f9e937eda224",
+        "uuid": "3ad8cecf-a544-4cc3-9310-3cce43e1d374",
         "id": "pulse_input_capture",
         "versioned_id": "pulse_input_capture",
         "settings": {
-            "device_id": "alsa_input.pci-0000_00_1b.0.analog-stereo"
+            "device_id": "default"
         },
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.66043490171432495,
+        "volume": 0.047253444790840149,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -58,424 +58,40 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 2,
-        "private_settings": {},
-        "filters": [
-            {
-                "prev_ver": 503447554,
-                "name": "Noise Gate",
-                "uuid": "6b712faa-9744-4eab-842d-3333e4ade798",
-                "id": "noise_gate_filter",
-                "versioned_id": "noise_gate_filter",
-                "settings": {},
-                "mixers": 255,
-                "sync": 0,
-                "flags": 0,
-                "volume": 1.0,
-                "balance": 0.5,
-                "enabled": true,
-                "muted": false,
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "hotkeys": {},
-                "deinterlace_mode": 0,
-                "deinterlace_field_order": 0,
-                "monitoring_type": 0,
-                "private_settings": {}
-            },
-            {
-                "prev_ver": 503447554,
-                "name": "Noise Suppression",
-                "uuid": "61863d5f-fff7-4340-8c4e-692f74675ce6",
-                "id": "noise_suppress_filter",
-                "versioned_id": "noise_suppress_filter_v2",
-                "settings": {},
-                "mixers": 255,
-                "sync": 0,
-                "flags": 0,
-                "volume": 1.0,
-                "balance": 0.5,
-                "enabled": true,
-                "muted": false,
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "hotkeys": {},
-                "deinterlace_mode": 0,
-                "deinterlace_field_order": 0,
-                "monitoring_type": 0,
-                "private_settings": {}
-            },
-            {
-                "prev_ver": 503447554,
-                "name": "Limiter",
-                "uuid": "32c72d27-4a99-4ad7-bb9d-d8de951145f0",
-                "id": "limiter_filter",
-                "versioned_id": "limiter_filter",
-                "settings": {},
-                "mixers": 255,
-                "sync": 0,
-                "flags": 0,
-                "volume": 1.0,
-                "balance": 0.5,
-                "enabled": true,
-                "muted": false,
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "hotkeys": {},
-                "deinterlace_mode": 0,
-                "deinterlace_field_order": 0,
-                "monitoring_type": 0,
-                "private_settings": {}
-            }
-        ]
+        "monitoring_type": 0,
+        "private_settings": {}
     },
-    "current_scene": "w/e",
-    "current_program_scene": "w/e",
+    "current_scene": "main",
+    "current_program_scene": "main",
     "scene_order": [
         {
-            "name": "w/e"
-        },
-        {
-            "name": "oeulmtmoeut"
+            "name": "main"
         }
     ],
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 503447554,
-            "name": "Video Capture Device (V4L2)",
-            "uuid": "ca239644-8ddf-4926-85f2-b6f7ad92d18b",
-            "id": "v4l2_input",
-            "versioned_id": "v4l2_input",
-            "settings": {
-                "device_id": "/dev/video0",
-                "Brightness": -2,
-                "Contrast": 13,
-                "Saturation": 20,
-                "White Balance, Automatic": true,
-                "Gamma": 140,
-                "Power Line Frequency": 2,
-                "White Balance Temperature": 4650,
-                "input": 0,
-                "pixelformat": 1196444237,
-                "resolution": 5497558139600,
-                "framerate": 30,
-                "color_range": 2
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "lain-icon",
-            "uuid": "cd1345e7-af5d-4596-88e8-fd9026fad7e1",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/emojify.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "chatting",
-            "uuid": "f6f5f46e-e0b8-4149-b3ec-4516f3e52ae0",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/chatting.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "pepo-cat",
-            "uuid": "930a1846-c902-4022-b927-5a2d90825526",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/cute-pepe-lmao.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "pepo-tea",
-            "uuid": "b0003063-c63a-41b1-ac8b-d7cf0dc89fee",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/pepe-tea.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "w/e",
-            "uuid": "e6228284-bfbb-4165-8967-15ec80a4d10b",
+            "prev_ver": 520093697,
+            "name": "main",
+            "uuid": "bd8bfc0e-8ae4-459d-a77a-bd3ec6e02d29",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 32,
+                "id_counter": 3,
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Window Capture (Xcomposite)",
-                        "source_uuid": "115d7334-ed73-42e8-81f7-85457f7b9069",
+                        "name": "webcam",
+                        "source_uuid": "8792133a-57a4-4179-a420-a1e8332081d0",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 1,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 22,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_rel": {
-                            "x": 3.5555555820465088,
-                            "y": 2.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "lain-icon",
-                        "source_uuid": "cd1345e7-af5d-4596-88e8-fd9026fad7e1",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 225.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 1360.0,
+                            "y": 768.0
                         },
                         "align": 5,
                         "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1860.0,
-                            "y": 202.5
-                        },
-                        "pos_rel": {
-                            "x": 1.6665025949478149,
-                            "y": -0.62539589405059814
-                        },
-                        "scale": {
-                            "x": 3.9375,
-                            "y": 3.9375
-                        },
-                        "scale_rel": {
-                            "x": 3.9375,
-                            "y": 3.9375
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "pepe-tux",
-                        "source_uuid": "c691b156-da06-4413-af11-57af515e2b99",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 32,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 817.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": 0.5129629373550415
-                        },
-                        "scale": {
-                            "x": 0.7774086594581604,
-                            "y": 0.5899999737739563
-                        },
-                        "scale_rel": {
-                            "x": 0.7774086594581604,
-                            "y": 0.5899999737739563
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Video Capture Device (V4L2)",
-                        "source_uuid": "ca239644-8ddf-4926-85f2-b6f7ad92d18b",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -489,456 +105,16 @@
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
+                            "x": -1.7708333730697632,
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.70833331346511841,
+                            "y": 0.70833331346511841
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_rel": {
-                            "x": 3.5555555820465088,
-                            "y": 2.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "pepo-band",
-                        "source_uuid": "eb59af94-9305-4024-8b00-89c3ff342b5f",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 28,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 7.0,
-                            "y": 792.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7648148536682129,
-                            "y": 0.46666669845581055
-                        },
-                        "scale": {
-                            "x": 0.88955825567245483,
-                            "y": 0.88793104887008667
-                        },
-                        "scale_rel": {
-                            "x": 0.88955825567245483,
-                            "y": 0.88793104887008667
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "chatting",
-                        "source_uuid": "f6f5f46e-e0b8-4149-b3ec-4516f3e52ae0",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 10,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 29.0,
-                            "y": 641.0
-                        },
-                        "pos_rel": {
-                            "x": -1.724074125289917,
-                            "y": 0.18703699111938477
-                        },
-                        "scale": {
-                            "x": 0.67000001668930054,
-                            "y": 0.67000001668930054
-                        },
-                        "scale_rel": {
-                            "x": 0.67000001668930054,
-                            "y": 0.67000001668930054
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "pepo-cat",
-                        "source_uuid": "930a1846-c902-4022-b927-5a2d90825526",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 606.0,
-                            "y": 984.0
-                        },
-                        "pos_rel": {
-                            "x": -0.65555554628372192,
-                            "y": 0.82222223281860352
-                        },
-                        "scale": {
-                            "x": 0.8571428656578064,
-                            "y": 0.8571428656578064
-                        },
-                        "scale_rel": {
-                            "x": 0.8571428656578064,
-                            "y": 0.8571428656578064
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "pepo-tea",
-                        "source_uuid": "b0003063-c63a-41b1-ac8b-d7cf0dc89fee",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 16,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 580.0,
-                            "y": 987.0
-                        },
-                        "pos_rel": {
-                            "x": -0.70370370149612427,
-                            "y": 0.82777774333953857
-                        },
-                        "scale": {
-                            "x": -2.1136362552642822,
-                            "y": 2.1136362552642822
-                        },
-                        "scale_rel": {
-                            "x": -2.1136362552642822,
-                            "y": 2.1136362552642822
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "pepo-smoke",
-                        "source_uuid": "f3090a30-99b0-46fa-90e6-8541ceaba7ed",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 17,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1840.5,
-                            "y": 854.0
-                        },
-                        "pos_rel": {
-                            "x": 1.6307277679443359,
-                            "y": 0.58121657371520996
-                        },
-                        "scale": {
-                            "x": -0.31499999761581421,
-                            "y": 0.31333333253860474
-                        },
-                        "scale_rel": {
-                            "x": -0.31499999761581421,
-                            "y": 0.31333333253860474
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "pepo-weirdge",
-                        "source_uuid": "b67111a6-b4db-463b-9a3d-01488c3645bd",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1920.0,
-                            "y": 893.0
-                        },
-                        "pos_rel": {
-                            "x": 1.7777777910232544,
-                            "y": 0.65370368957519531
-                        },
-                        "scale": {
-                            "x": -0.5401606559753418,
-                            "y": 0.53890490531921387
-                        },
-                        "scale_rel": {
-                            "x": -0.5401606559753418,
-                            "y": 0.53890490531921387
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "alertbox",
-                        "source_uuid": "5941978f-ddae-480b-aaa2-e91e05921298",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 21,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 252.0,
-                            "y": 97.0
-                        },
-                        "pos_rel": {
-                            "x": -1.3111110925674438,
-                            "y": -0.8203703761100769
-                        },
-                        "scale": {
-                            "x": 0.47999998927116394,
-                            "y": 0.47999998927116394
-                        },
-                        "scale_rel": {
-                            "x": 0.47999998927116394,
-                            "y": 0.47999998927116394
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Text (FreeType 2)",
-                        "source_uuid": "189a0b0f-1541-4b29-ab19-ea3b7e5ef7fc",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 30,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 329.0,
-                            "y": 411.0
-                        },
-                        "pos_rel": {
-                            "x": -1.1685185432434082,
-                            "y": -0.23888885974884033
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.70833331346511841,
+                            "y": 0.70833331346511841
                         },
                         "bounds": {
                             "x": 0.0,
@@ -974,30 +150,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.32": [],
-                "libobs.hide_scene_item.32": [],
                 "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.28": [],
-                "libobs.hide_scene_item.28": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": [],
-                "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.30": [],
-                "libobs.hide_scene_item.30": []
+                "libobs.hide_scene_item.3": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1005,212 +159,24 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503447554,
-            "name": "alertbox",
-            "uuid": "5941978f-ddae-480b-aaa2-e91e05921298",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
+            "prev_ver": 520093697,
+            "name": "webcam",
+            "uuid": "8792133a-57a4-4179-a420-a1e8332081d0",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
             "settings": {
-                "url": "https://streamlabs.com/alert-box/v3/3E1B26CC1B27AF09D38E16E182A3D3DB34EA422E4FA69D8D52704070D80AA01C770D618C92CF09D5752E2AD81ACCC70ACEFF87926C658BBED0CB16663DD724AC9B13AA21D8022BC19B6EB17F11773520588645215DDA761E87DEE97DECA87ABB002E3B10C31F50BAC9F87A720DBBAD01FF45D316D8976CC8A6A11E531A"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "Window Capture (Xcomposite)",
-            "uuid": "115d7334-ed73-42e8-81f7-85457f7b9069",
-            "id": "xcomposite_input",
-            "versioned_id": "xcomposite_input",
-            "settings": {
-                "capture_window": "18945327\r\nedclub — Mozilla Firefox\r\nNavigator",
-                "cut_top": 118,
-                "cut_left": 0,
-                "cut_right": 0,
-                "cut_bot": 0,
-                "show_cursor": true,
-                "include_border": false,
-                "exclude_alpha": false
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "oeulmtmoeut",
-            "uuid": "d220d6d2-d3d9-4881-8d1e-3393903cf1fc",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": false,
-                "items": []
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "pepo-band",
-            "uuid": "eb59af94-9305-4024-8b00-89c3ff342b5f",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/pepe-band.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "pepo-weirdge",
-            "uuid": "b67111a6-b4db-463b-9a3d-01488c3645bd",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/pepe-weirdge.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "pepo-smoke",
-            "uuid": "f3090a30-99b0-46fa-90e6-8541ceaba7ed",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/gifs/pepe-smoking.gif"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "Text (FreeType 2)",
-            "uuid": "189a0b0f-1541-4b29-ab19-ea3b7e5ef7fc",
-            "id": "text_ft2_source",
-            "versioned_id": "text_ft2_source_v2",
-            "settings": {
-                "text": "ja volto :)"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447554,
-            "name": "pepe-tux",
-            "uuid": "c691b156-da06-4413-af11-57af515e2b99",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/kyo/pics/pfp/e93dd5040011c099c624f17653db0d5c.png"
+                "device_id": "/dev/video0",
+                "input": 0,
+                "pixelformat": 1196444237,
+                "resolution": 8246337209400,
+                "framerate": 30,
+                "color_range": 2,
+                "buffering": true,
+                "White Balance, Automatic": false,
+                "White Balance Temperature": 4650,
+                "Sharpness": 4,
+                "Saturation": 20,
+                "Contrast": 18
             },
             "mixers": 0,
             "sync": 0,
@@ -1284,13 +250,5 @@
             "switches": []
         }
     },
-    "resolution": {
-        "x": 1920,
-        "y": 1080
-    },
-    "version": 2,
-    "migration_resolution": {
-        "x": 1920,
-        "y": 1080
-    }
+    "version": 2
 }
