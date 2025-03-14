@@ -9,6 +9,9 @@
 #pactl load-module module-null-sink sink_name=Source &
 #pactl load-module module-virtual-source source_name=obs_virtual-mic master=Source.monitor &
 
+# disabling laptop output and changing external monitor resolution
+xrandr --output eDP1 --off --output HDMI1 --mode 1360x768 --rate 75 --rotate normal --primary
+
 # changing to the correct keyboard layout
 setxkbmap -layout us -variant dvp
 

@@ -20,7 +20,7 @@ static const char *const autostart[] = { // cool-autostart patch
 };
 
 /* dwm colors */
-#include "/home/kyoto/.cache/wal/colors-wal-dwm.h" // custom colors
+#include "/home/ynv/.cache/wal/colors-wal-dwm.h" // custom colors
 
 /* tagging */
 static const char *tags[] = { "  ~", "", " ", "", " ", "", "", " ", " ", "?" };
