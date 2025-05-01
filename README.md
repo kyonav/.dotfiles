@@ -5,3 +5,5 @@ feh flameshot ttf-ubuntu-mono-nerd python-pywal xcompmgr zsh
 ### Symlink files on /profile/cfg to /home
 ### Symlink /profile/icons to ~/.local/share/
 ### Symlink /profile/wal to ~/.cache/
+
+![i-hecking-love-arch](https://wallpapercave.com/wp/wp5568744.png)
