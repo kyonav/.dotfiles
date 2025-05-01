@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/pics/wpps/403783.png",
+    "alpha": "100",
+    "special": {
+        "background": "#041508",
+        "foreground": "#f3d0e8",
+        "cursor": "#f3d0e8"
+    },
+    "colors": {
+        "color0": "#041508",
+        "color1": "#E072AB",
+        "color2": "#66AC8C",
+        "color3": "#6ED0A2",
+        "color4": "#C3A5BA",
+        "color5": "#F394CC",
+        "color6": "#F7A6D8",
+        "color7": "#f3d0e8",
+        "color8": "#aa91a2",
+        "color9": "#E072AB",
+        "color10": "#66AC8C",
+        "color11": "#6ED0A2",
+        "color12": "#C3A5BA",
+        "color13": "#F394CC",
+        "color14": "#F7A6D8",
+        "color15": "#f3d0e8"
+    }
+}

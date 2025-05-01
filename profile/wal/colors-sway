@@ -1,0 +1,21 @@
+set $wallpaper /home/ynv/pics/wpps/rw.png
+
+set $background #0b0b0b
+set $foreground #dde2df
+
+set $color0 #0b0b0b
+set $color1 #D30843
+set $color2 #FB0046
+set $color3 #738975
+set $color4 #809381
+set $color5 #99A99B
+set $color6 #B8C7BB
+set $color7 #dde2df
+set $color8 #9a9e9c
+set $color9 #D30843
+set $color10 #FB0046
+set $color11 #738975
+set $color12 #809381
+set $color13 #99A99B
+set $color14 #B8C7BB
+set $color15 #dde2df

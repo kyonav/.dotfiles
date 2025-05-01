@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/pics/wpps/contenton_40378_girl_walking_on_the_street_demon_horns_cyberpun_759ce501-9acc-4a2a-b592-cb20e8f8e4fe.png",
+    "alpha": "100",
+    "special": {
+        "background": "#050605",
+        "foreground": "#b5b7b8",
+        "cursor": "#b5b7b8"
+    },
+    "colors": {
+        "color0": "#050605",
+        "color1": "#AB4459",
+        "color2": "#D24C69",
+        "color3": "#F2577B",
+        "color4": "#837E82",
+        "color5": "#FB5982",
+        "color6": "#FE6187",
+        "color7": "#b5b7b8",
+        "color8": "#7e8080",
+        "color9": "#AB4459",
+        "color10": "#D24C69",
+        "color11": "#F2577B",
+        "color12": "#837E82",
+        "color13": "#FB5982",
+        "color14": "#FE6187",
+        "color15": "#b5b7b8"
+    }
+}

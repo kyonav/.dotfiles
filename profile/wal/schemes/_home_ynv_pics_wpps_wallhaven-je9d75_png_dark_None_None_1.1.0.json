@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/pics/wpps/wallhaven-je9d75.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080808",
+        "foreground": "#e0dfef",
+        "cursor": "#e0dfef"
+    },
+    "colors": {
+        "color0": "#080808",
+        "color1": "#523FA4",
+        "color2": "#635C93",
+        "color3": "#9965D0",
+        "color4": "#57A7CE",
+        "color5": "#A59DBF",
+        "color6": "#AA9DDB",
+        "color7": "#e0dfef",
+        "color8": "#9c9ca7",
+        "color9": "#523FA4",
+        "color10": "#635C93",
+        "color11": "#9965D0",
+        "color12": "#57A7CE",
+        "color13": "#A59DBF",
+        "color14": "#AA9DDB",
+        "color15": "#e0dfef"
+    }
+}

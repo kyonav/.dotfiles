@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/pics/wpps/contenton_40378_very_pretty_girl_cozy_and_aesthetic_art_mysteri_efde35ec-40df-4812-b95e-fed648899ddb.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040502",
+        "foreground": "#e3e6df",
+        "cursor": "#e3e6df"
+    },
+    "colors": {
+        "color0": "#040502",
+        "color1": "#7A8B65",
+        "color2": "#9E9C71",
+        "color3": "#A4AF91",
+        "color4": "#D1B7A7",
+        "color5": "#ACC589",
+        "color6": "#B3D6B1",
+        "color7": "#e3e6df",
+        "color8": "#9ea19c",
+        "color9": "#7A8B65",
+        "color10": "#9E9C71",
+        "color11": "#A4AF91",
+        "color12": "#D1B7A7",
+        "color13": "#ACC589",
+        "color14": "#B3D6B1",
+        "color15": "#e3e6df"
+    }
+}

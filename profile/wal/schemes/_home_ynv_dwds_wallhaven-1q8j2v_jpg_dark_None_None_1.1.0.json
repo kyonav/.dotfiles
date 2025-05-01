@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/dwds/wallhaven-1q8j2v.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151515",
+        "foreground": "#ede2e5",
+        "cursor": "#ede2e5"
+    },
+    "colors": {
+        "color0": "#151515",
+        "color1": "#9A827D",
+        "color2": "#6C7788",
+        "color3": "#B37392",
+        "color4": "#768E9A",
+        "color5": "#9591A0",
+        "color6": "#CEAEC3",
+        "color7": "#ede2e5",
+        "color8": "#a59ea0",
+        "color9": "#9A827D",
+        "color10": "#6C7788",
+        "color11": "#B37392",
+        "color12": "#768E9A",
+        "color13": "#9591A0",
+        "color14": "#CEAEC3",
+        "color15": "#ede2e5"
+    }
+}

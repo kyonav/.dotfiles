@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/dwds/contenton_40378_very_pretty_girl_a_sorceress_with_black_and_whi_5d52b1fc-f623-4036-a5c0-c9b2ce98a1ef.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080F09",
+        "foreground": "#f4d8f5",
+        "cursor": "#f4d8f5"
+    },
+    "colors": {
+        "color0": "#080F09",
+        "color1": "#98758E",
+        "color2": "#F95D8E",
+        "color3": "#E66F96",
+        "color4": "#FC6394",
+        "color5": "#D38FAF",
+        "color6": "#EBB4E6",
+        "color7": "#f4d8f5",
+        "color8": "#aa97ab",
+        "color9": "#98758E",
+        "color10": "#F95D8E",
+        "color11": "#E66F96",
+        "color12": "#FC6394",
+        "color13": "#D38FAF",
+        "color14": "#EBB4E6",
+        "color15": "#f4d8f5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ynv/pics/wpps/contenton_40378_Anime_girl_with_purple_hair_brown_eyes_and_a_fe_e9def48b-bd69-4d9d-8334-6e470a2a708b.png",
+    "alpha": "100",
+    "special": {
+        "background": "#050505",
+        "foreground": "#e8e2e0",
+        "cursor": "#e8e2e0"
+    },
+    "colors": {
+        "color0": "#050505",
+        "color1": "#906890",
+        "color2": "#61A093",
+        "color3": "#63BCA6",
+        "color4": "#64C2AB",
+        "color5": "#70D6C2",
+        "color6": "#B79FA5",
+        "color7": "#e8e2e0",
+        "color8": "#a29e9c",
+        "color9": "#906890",
+        "color10": "#61A093",
+        "color11": "#63BCA6",
+        "color12": "#64C2AB",
+        "color13": "#70D6C2",
+        "color14": "#B79FA5",
+        "color15": "#e8e2e0"
+    }
+}
