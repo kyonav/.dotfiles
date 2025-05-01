@@ -1,3 +1,2 @@
-source $HOME/.Xresources
-
+xrdb ~/.Xresources
 exec dwm

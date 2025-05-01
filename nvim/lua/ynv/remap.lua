@@ -43,9 +43,9 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- Source the file you're in
-vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
+vim.keymap.set("n", "<leader>dr", function()
+    vim.cmd("term dotnet run")
+
+end, {noremap = true, silent = true, desc = "Run dotnet project on term" })
 
 vim.keymap.set("n", "<leader>bg", vim.cmd.VimBeGood)
-
-end)

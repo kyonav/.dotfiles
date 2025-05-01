@@ -1,11 +1,11 @@
 alias ls="ls --color=always"
 
-alias obs="optirun obs"
+alias obs="prime-run obs"
 
-alias discord="optirun discord"
+alias discord="discord"
 
-alias firefox="optirun firefox"
+alias firefox="prime-run firefox"
 
-alias spotify-launcher="optirun spotify-launcher"
+alias spotify-launcher="prime-run spotify-launcher"
 
 alias v="nvim"

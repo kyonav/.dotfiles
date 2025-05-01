@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font ="UbuntuMonoNerdFont-Regular:size=13";
-static int borderpx = 10; /* modifies the window padding */
+static char *font ="UbuntuMonoNerdFont-Regular:size=12";
+static int borderpx = 12; /* modifies the window padding */
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.80;
+float alpha = 0.85;
 
 /* Terminal colors */
 

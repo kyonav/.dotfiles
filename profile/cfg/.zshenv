@@ -11,4 +11,5 @@ export ZSH="$ZDOTDIR/ohmyzsh"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/.password-store"
 
 export PATH="$HOME/.local/bin":$PATH
-export PATH="/usr/bin/flutter/bin":$PATH
+
+export PATH="$HOME/.dotnet/tools"

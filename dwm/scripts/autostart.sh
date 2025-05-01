@@ -10,7 +10,7 @@
 #pactl load-module module-virtual-source source_name=obs_virtual-mic master=Source.monitor &
 
 # disabling laptop output and changing external monitor resolution
-xrandr --output eDP1 --off --output HDMI1 --mode 1360x768 --rate 75 --rotate normal --primary
+xrandr --output eDP1 --off --output HDMI1 --mode 1360x768 --rate 60 --rotate normal --primary
 
 # changing to the correct keyboard layout
 setxkbmap -layout us -variant dvp
@@ -27,7 +27,7 @@ killall flameshot
 flameshot &
 
 # setting a background wallpaper with feh 
-feh --bg-scale $HOME/pic/wpp/7f8554.png
+feh --bg-scale $HOME/pics/wpps/wallhaven-og9yw5.jpg
 
 # window compositor for enabling transparent windows
 killall xcompmgr

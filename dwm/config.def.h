@@ -2,17 +2,17 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 0;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
+static const unsigned int systraypinning = 1;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft  = 1;   /* 0: systray in the right corner, >0: systray on left of status text */
-static const unsigned int systrayspacing = 4;   /* systray spacing */
+static const unsigned int systrayspacing = 6;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = {"UbuntuMonoNerdFont-Regular:size=10", "fa-regular-400:size=7", "fa-brands-400"};
-static const char dmenufont[]       = "UbuntuMonoNerdFont-Regular:size=10";
+static const char *fonts[]          = {"UbuntuMonoNerdFont-Regular:size=11", "fa-regular-400", "fa-brands-400"};
+static const char dmenufont[]       = "UbuntuMonoNerdFont-Regular:size=11";
 
 static const char *const autostart[] = { // cool-autostart patch 
 	"sh", "-c", "$XDG_CONFIG_HOME/dwm/scripts/autostart.sh", NULL, /* runs autostart.sh on boot */
@@ -23,17 +23,15 @@ static const char *const autostart[] = { // cool-autostart patch
 #include "/home/ynv/.cache/wal/colors-wal-dwm.h" // custom colors
 
 /* tagging */
-static const char *tags[] = { "  ~", "", " ", "", " ", "", "", " ", " ", "?" };
+static const char *tags[] = { "1", "2", "3", "4"};
 
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Firefox",      NULL,       NULL,       2,            0,           -1 },
-    { "discord",      NULL,       NULL,       3,            0,           -1 },
-    { "st-256color",  NULL,       NULL,       0 >> 1,       0,           -1 }, 
+	/* class        instance    title       tags mask     isfloating   monitor */
+	{ "Firefox",    NULL,       NULL,       0,            0,           -1 },
 };
 
 /* layout(s) */
