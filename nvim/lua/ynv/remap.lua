@@ -42,10 +42,15 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 -- Sexy search and replace
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
--- Source the file you're in
+-- Run dotnet project on root folder
 vim.keymap.set("n", "<leader>dr", function()
     vim.cmd("term dotnet run")
 
 end, {noremap = true, silent = true, desc = "Run dotnet project on term" })
+
+vim.keymap.set("n", "<leader>tt", function()
+    vim.cmd("term")
+
+end, {noremap = true, silent = true, desc = "Toggle terminal" })
 
 vim.keymap.set("n", "<leader>bg", vim.cmd.VimBeGood)
