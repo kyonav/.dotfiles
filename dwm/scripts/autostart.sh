@@ -27,7 +27,7 @@ killall flameshot
 flameshot &
 
 # setting a background wallpaper with feh 
-feh --bg-scale $HOME/pics/wpps/wallhaven-og9yw5.jpg
+feh --bg-scale $HOME/pics/wpps/_execration_loop__by_evlsound_djpyj8d.png
 
 # window compositor for enabling transparent windows
 killall xcompmgr

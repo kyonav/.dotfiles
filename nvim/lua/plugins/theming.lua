@@ -1,5 +1,5 @@
 function ApplyTheme(color)
-    color = color or "catppuccin"
+    color = color or "eva01"
     vim.cmd.colorscheme(color)
 
     if vim.fn.has("termguicolors") then
@@ -12,17 +12,17 @@ function ApplyTheme(color)
 end
 
 return {
---    {
---        "hachy/eva01.vim",
---        name = eva01,
---        lazy = false,
---        priority = 1000,
---        config = function()
---            ApplyTheme("eva01");
---            -- or
---            -- vim.cmd.colorscheme "eva01-LCL"
---        end,
---    },
+    {
+        "hachy/eva01.vim",
+        name = eva01,
+        lazy = false,
+        priority = 1000,
+        config = function()
+            ApplyTheme("eva01");
+            -- or
+            -- vim.cmd.colorscheme "eva01-LCL"
+        end,
+    },
 --    {
 --        'rockerBOO/boo-colorscheme-nvim',
 --        name = "boo",
@@ -49,18 +49,6 @@ return {
 --
 --        end
 --    },
-    {
-        'catppuccin/nvim',
-        name = "catppuccin",
-        lazy = false,
-        priority = 1000,
-
-        config = function ()
-            ApplyTheme("catppuccin")
-
-        end
-
-    },
 --    {
 --        'olivercederborg/poimandres.nvim',
 --        name = "poimandres",

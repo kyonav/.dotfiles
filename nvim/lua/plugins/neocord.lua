@@ -7,9 +7,9 @@ return
             -- The setup config table shows all available config options with their default values:
             require("neocord").setup({
                 -- General options
-                logo                = "https://styles.redditmedia.com/t5_30kix/styles/communityIcon_n2hvyn96zwk81.png",                     -- "auto" or url
+                logo                = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXZ1anFic3BpMnhqM2gzcjYxbmdjZnhtcmEyMjUzaHk1a2psaHFveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VLzbEtlbwJUFljcRbf/giphy.gif",                     -- "auto" or url
                 logo_tooltip        = nil,                        -- nil or string
-                main_image          = "language",                 -- "language" or "logo"
+                main_image          = "logo",                 -- "language" or "logo"
                 client_id           = "1157438221865717891",      -- Use your own Discord application client id (not recommended)
                 log_level           = nil,                        -- Log messages at or above this level (one of the following: "debug", "info", "warn", "error")
                 debounce_timeout    = 1,                         -- Number of seconds to debounce events (or calls to `:lua package.loaded.presence:update(<filename>, true)`)
