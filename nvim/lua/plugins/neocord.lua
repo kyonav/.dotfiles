@@ -7,7 +7,7 @@ return
             -- The setup config table shows all available config options with their default values:
             require("neocord").setup({
                 -- General options
-                logo                = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXZ1anFic3BpMnhqM2gzcjYxbmdjZnhtcmEyMjUzaHk1a2psaHFveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VLzbEtlbwJUFljcRbf/giphy.gif",                     -- "auto" or url
+                logo                = "https://media1.tenor.com/m/FI9CZRTgweMAAAAC/lain-lain-iwakura.gif",                     -- "auto" or url
                 logo_tooltip        = nil,                        -- nil or string
                 main_image          = "logo",                 -- "language" or "logo"
                 client_id           = "1157438221865717891",      -- Use your own Discord application client id (not recommended)

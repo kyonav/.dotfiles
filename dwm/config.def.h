@@ -23,7 +23,7 @@ static const char *const autostart[] = { // cool-autostart patch
 #include "/home/ynv/.cache/wal/colors-wal-dwm.h" // custom colors
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4"};
+static const char *tags[] = { "7", "5", "3", "1", "9"};
 
 static const Rule rules[] = {
 	/* xprop(1):

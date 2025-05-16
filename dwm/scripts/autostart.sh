@@ -27,7 +27,7 @@ killall flameshot
 flameshot &
 
 # setting a background wallpaper with feh 
-feh --bg-scale $HOME/pics/wpps/_execration_loop__by_evlsound_djpyj8d.png
+feh --bg-scale $HOME/pics/wpps/rose-pine-sword.jpg
 
 # window compositor for enabling transparent windows
 killall xcompmgr
@@ -37,3 +37,6 @@ lxpolkit &
 
 # fvck off
 rm -rf $HOME/Downloads
+
+# max performance always
+powerprofilesctl set performance

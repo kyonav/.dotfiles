@@ -11,7 +11,8 @@ return {
         require('fidget').setup({})
         require('mason').setup({
             ensure_installed = {
-                'roslyn'
+                'roslyn',
+                'rzls',
             }
         })
         require('mason-lspconfig').setup({
