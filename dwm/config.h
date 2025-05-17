@@ -11,8 +11,8 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 0;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = {"UbuntuMonoNerdFont-Regular:size=11"};
-static const char dmenufont[]       = "UbuntuMonoNerdFont-Regular:size=11";
+static const char *fonts[]          = {"LilexNerdFont-Regular:size=9"};
+static const char dmenufont[]       = "LilexNerdFont-Regular:size=9";
 
 static const char *const autostart[] = { // cool-autostart patch 
 	"sh", "-c", "$XDG_CONFIG_HOME/dwm/scripts/autostart.sh", NULL, /* runs autostart.sh on boot */

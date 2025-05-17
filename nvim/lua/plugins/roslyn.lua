@@ -11,9 +11,17 @@ return {
             },
         },
         config = function()
-            -- Use one of the methods in the Integration section to compose the command.
-            local cmd = {}
-
+            local rzls_path = vim.fn.expand("$MASON/packages/rzls/libexec")
+            local cmd = {
+                "roslyn",
+                "--stdio",
+                "--logLevel=Information",
+                "--extensionLogDirectory=" .. vim.fs.dirname(vim.lsp.get_log_path()),
+                "--razorSourceGenerator=" .. vim.fs.joinpath(rzls_path, "Microsoft.CodeAnalysis.Razor.Compiler.dll"),
+                "--razorDesignTimePath=" .. vim.fs.joinpath(rzls_path, "Targets", "Microsoft.NET.Sdk.Razor.DesignTime.targets"),
+                "--extension",
+                vim.fs.joinpath(rzls_path, "RazorExtension", "Microsoft.VisualStudioCode.RazorExtension.dll"),
+            }
             require("roslyn").setup {
                 cmd = cmd,
                 handlers = require("rzls.roslyn_handlers"),

@@ -15,10 +15,13 @@ PKG_CONFIG = pkg-config
 # includes and libs
 INCS = -I$(X11INC) \
        `$(PKG_CONFIG) --cflags fontconfig` \
-       `$(PKG_CONFIG) --cflags freetype2`
+       `$(PKG_CONFIG) --cflags freetype2` \
+       `$(PKG_CONFIG) --cflags harfbuzz`
+
 LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil -lXft \
        `$(PKG_CONFIG) --libs fontconfig` \
-       `$(PKG_CONFIG) --libs freetype2`
+       `$(PKG_CONFIG) --libs freetype2` \
+       `$(PKG_CONFIG) --libs harfbuzz`
 
 # flags
 STCPPFLAGS = -DVERSION=\"$(VERSION)\" -D_XOPEN_SOURCE=600
@@ -29,7 +32,8 @@ STLDFLAGS = $(LIBS) $(LDFLAGS)
 #CPPFLAGS = -DVERSION=\"$(VERSION)\" -D_XOPEN_SOURCE=600 -D_BSD_SOURCE
 #LIBS = -L$(X11LIB) -lm -lX11 -lutil -lXft \
 #       `$(PKG_CONFIG) --libs fontconfig` \
-#       `$(PKG_CONFIG) --libs freetype2`
+#       `$(PKG_CONFIG) --libs freetype2` \
+#       `$(PKG_CONFIG) --libs harfbuzz`
 #MANPREFIX = ${PREFIX}/man
 
 # compiler and linker
