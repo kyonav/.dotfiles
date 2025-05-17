@@ -1,3 +1,4 @@
+require("ynv.bottleneck")
 require("ynv.lazy")
 require("ynv.remap")
 require("ynv.set")

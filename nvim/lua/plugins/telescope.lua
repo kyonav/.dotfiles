@@ -5,7 +5,11 @@ return {
     dependencies = {
         "nvim-lua/plenary.nvim"
     },
-    
+
+    defaults = {
+        file_ignore_patterns = { "%__virtual.cs$" },
+    },
+
     config = function()
         require('telescope').setup({})
 
