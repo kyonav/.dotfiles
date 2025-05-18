@@ -1,0 +1,22 @@
+2025-05-17 21:59:58.470 [info] Extension host with pid 91375 started
+2025-05-17 21:59:58.526 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-17 21:59:58.543 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-17 21:59:58.665 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-17 21:59:58.873 [info] Eager extensions activated
+2025-05-17 21:59:58.920 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-17 21:59:58.938 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-17 22:00:22.041 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-17 22:00:22.067 [info] Extension host with pid 91375 exiting with code 0
+2025-05-17 22:00:26.148 [info] Extension host with pid 91471 started
+2025-05-17 22:00:26.148 [info] Skipping acquiring lock for /home/ynv/.dotfiles/Code - OSS/User/workspaceStorage/b95f9076e60658b3634a677826dad19c.
+2025-05-17 22:00:26.231 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-05-17 22:00:26.372 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-17 22:00:26.497 [info] Eager extensions activated
+2025-05-17 22:00:26.517 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-17 22:00:26.527 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-17 22:00:27.700 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-05-17 22:00:31.439 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-17 22:00:31.483 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-17 22:00:31.687 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-17 22:00:31.868 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-17 22:01:57.674 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'

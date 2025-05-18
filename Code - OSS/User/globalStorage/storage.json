@@ -1,0 +1,83 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "1ccbcfb5b66eb5783c0811a352bd6da48362d59994446116aa1ec9bc3f960353",
+    "telemetry.devDeviceId": "44de6eb5-ccb5-4470-987d-b00a7a030439",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/ynv/projects/gestao-de-equipamentos-2025/GestaoDeEquipamentos.ConsoleApp"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1747529992405"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/ynv/projects/gestao-de-equipamentos-2025/GestaoDeEquipamentos.ConsoleApp": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1747529992405": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/ynv/projects/gestao-de-equipamentos-2025/GestaoDeEquipamentos.ConsoleApp",
+            "backupPath": "/home/ynv/.dotfiles/Code - OSS/Backups/225f90c76ed56e870464beb8eb2be0e1",
+            "uiState": {
+                "mode": 1,
+                "x": 1,
+                "y": 19,
+                "width": 1358,
+                "height": 748
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "b95f9076e60658b3634a677826dad19c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

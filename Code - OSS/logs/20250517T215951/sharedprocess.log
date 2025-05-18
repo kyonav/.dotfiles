@@ -1,0 +1,11 @@
+2025-05-17 21:59:56.799 [info] ComputeTargetPlatform: linux-x64
+2025-05-17 22:02:04.303 [info] ComputeTargetPlatform: linux-x64
+2025-05-17 22:02:13.834 [info] Getting Manifest... muhammad-sammy.csharp
+2025-05-17 22:02:25.872 [info] Installing extension: muhammad-sammy.csharp {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ynv/.vscode-oss/extensions/extensions.json","path":"/home/ynv/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.2","date":"2025-05-15T18:08:15.674Z"}}
+2025-05-17 22:02:26.045 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2025-05-17 22:02:26.464 [info] Installing extension: ms-dotnettools.vscode-dotnet-runtime {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ynv/.vscode-oss/extensions/extensions.json","path":"/home/ynv/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.2","date":"2025-05-15T18:08:15.674Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-05-17 22:02:29.292 [info] Extension signature verification result for ms-dotnettools.vscode-dotnet-runtime: UnknownError. Internal Code: 159. Executed: true. Duration: 19ms.
+2025-05-17 22:02:29.300 [error] Error while installing the extension ms-dotnettools.vscode-dotnet-runtime Signature verification failed with 'UnknownError' error. vscode-userdata:/home/ynv/.vscode-oss/extensions/extensions.json
+2025-05-17 22:02:29.307 [error] [uncaught exception in sharedProcess]: Signature verification failed with 'UnknownError' error.: SignatureVerificationInternal: Signature verification failed with 'UnknownError' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)

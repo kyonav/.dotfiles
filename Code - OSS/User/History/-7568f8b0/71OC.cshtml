@@ -1,0 +1,34 @@
+@using GestaoDeEquipamentos.ConsoleApp.ModuloFabricante;
+
+@{
+    List<Fabricante> manufacturers = [];
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>View Manufacturers - Equipment Management</title>
+    </head>
+
+    <body>
+        <h1>Equipment Management</h1>
+
+        <hr/>
+        <a href="/">Homepage /</a>
+        <a href="/manufacturers/register">Register new Manufacturer /</a>
+        <hr/>
+
+        <h3>View Manufacturers</h3>
+
+        <ul>
+        @foreach(Fabricante m in manufacturers)
+        {
+            <li>Id: @m.Id | Name: @m.Nome | E-mail: @m.Email | Phone: @m.Telefone / 
+                <a href="manufacturers/edit/@m.Id">Edit </a> /
+                <a href="manufacturers/delete/@m.Id">Delete</a> / </li>
+        }
+        </ul>
+        
+    </body>
+</html>

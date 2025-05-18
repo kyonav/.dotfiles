@@ -12,6 +12,5 @@ return
             },
 
             signature = { enabled = true },
-
         },
     }
