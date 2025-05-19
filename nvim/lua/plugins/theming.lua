@@ -12,6 +12,13 @@ function ApplyTheme(color)
 end
 
 return {
+--    {
+--        "rose-pine/neovim",
+--        name = "rose-pine",
+--        config = function()
+--            ApplyTheme("rose-pine")
+--        end
+--    },
     {
         "hachy/eva01.vim",
         name = eva01,

@@ -1,0 +1,20 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces", "hyprland/mode"],
+
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "format": "{name}",
+        "format-focused": "<span style='color:#00ff00;'>● {name}</span>",
+        "format-unfocused": "○ {name}",
+        "format-visible": "○ {name}",
+        "format-urgent": "<span style='color:#ff0000;'>! {name}</span>",
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+        }
+    }
+}

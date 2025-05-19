@@ -4,8 +4,9 @@ alias obs="prime-run obs"
 
 alias discord="discord"
 
-alias firefox="prime-run firefox"
+alias firefox="prime-run brave"
 
 alias spotify-launcher="prime-run spotify-launcher"
 
 alias v="nvim"
+alias nv="nvim"
