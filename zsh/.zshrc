@@ -103,5 +103,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# use custom aliases
 source $ZDOTDIR/.aliasrc
+
+# sexy hightlighting
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# ensure ghostty controls the cursor style
+export GHOSTTY_SHELL_INTEGRATION_CURSOR=false
